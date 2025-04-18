@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class GerakanDetailScreen extends StatelessWidget {
+class BacaanGerakanScreen extends StatelessWidget {
   final String title;
   final String description;
   final String? arabicText; // Arabic text
@@ -8,7 +8,7 @@ class GerakanDetailScreen extends StatelessWidget {
   final String? indonesianTranslation; // Translation in Indonesian
   final String? englishTranslation; // Translation in English
 
-  const GerakanDetailScreen({
+  const BacaanGerakanScreen({
     super.key,
     required this.title,
     required this.description,

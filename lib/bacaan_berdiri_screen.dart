@@ -4,17 +4,24 @@ import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart' as logging;
 
-class BerdiriTegakScreen extends StatefulWidget {
-  const BerdiriTegakScreen({super.key});
+class BacaanBerdiriScreen extends StatefulWidget {
+  const BacaanBerdiriScreen({super.key});
 
   @override
-  State<BerdiriTegakScreen> createState() => _BerdiriTegakScreenState();
+  State<BacaanBerdiriScreen> createState() => _BacaanBerdiriScreenState();
 }
 
-class _BerdiriTegakScreenState extends State<BerdiriTegakScreen> {
+class _BacaanBerdiriScreenState extends State<BacaanBerdiriScreen> {
   List<Map<String, dynamic>> surahList = [];
   final logging.Logger _logger = logging.Logger('BerdiriTegakScreen');
   Map<String, dynamic>? selectedSurah;
+  bool _isArabicTextEnlarged = false;
+
+  void _toggleArabicTextSize() {
+    setState(() {
+      _isArabicTextEnlarged = !_isArabicTextEnlarged;
+    });
+  }
 
   @override
   void initState() {
@@ -28,12 +35,13 @@ class _BerdiriTegakScreenState extends State<BerdiriTegakScreen> {
       final manifestContent = await rootBundle.loadString('AssetManifest.json');
       final Map<String, dynamic> manifestMap = json.decode(manifestContent);
 
-      // Filter JSON files in the assets/json directory
+      // Filter JSON files in the /assets/json/surah directory
       final surahFiles =
           manifestMap.keys
               .where(
                 (key) =>
-                    key.startsWith('assets/json/') && key.endsWith('.json'),
+                    key.startsWith('assets/json/surah/') &&
+                    key.endsWith('.json'),
               )
               .toList();
 
@@ -188,14 +196,17 @@ class _BerdiriTegakScreenState extends State<BerdiriTegakScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          '${i + 1}. ${alFatihah[i]['arabic']}',
-                          style: const TextStyle(
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.black87,
+                        GestureDetector(
+                          onDoubleTap: _toggleArabicTextSize,
+                          child: Text(
+                            '${i + 1}. ${alFatihah[i]['arabic']}',
+                            style: TextStyle(
+                              fontSize: _isArabicTextEnlarged ? 32.0 : 20.0,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black87,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                         const SizedBox(height: 8.0),
                         Text(
@@ -333,14 +344,17 @@ class _BerdiriTegakScreenState extends State<BerdiriTegakScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
-                              selectedSurah!['ayahs'][i]['arabic'] ?? '',
-                              style: const TextStyle(
-                                fontSize: 20.0,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.black87,
+                            GestureDetector(
+                              onDoubleTap: _toggleArabicTextSize,
+                              child: Text(
+                                selectedSurah!['ayahs'][i]['arabic'] ?? '',
+                                style: TextStyle(
+                                  fontSize: _isArabicTextEnlarged ? 32.0 : 20.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black87,
+                                ),
+                                textAlign: TextAlign.center,
                               ),
-                              textAlign: TextAlign.center,
                             ),
                             const SizedBox(height: 8.0),
                             Text(
