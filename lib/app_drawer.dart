@@ -1,53 +1,47 @@
 import 'package:flutter/material.dart';
+import 'about_screen.dart';
+import 'subscribe_screen.dart';
 
 class AppDrawer extends StatelessWidget {
-  final VoidCallback? onLogin;
-  final VoidCallback? onLogout;
-  final VoidCallback? onSubscribe;
-
-  const AppDrawer({super.key, this.onLogin, this.onLogout, this.onSubscribe});
+  const AppDrawer({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
-        children: <Widget>[
+        children: [
           DrawerHeader(
-            decoration: BoxDecoration(color: Colors.deepPurple),
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.primary,
+            ),
             child: const Text(
-              'Menu',
+              'NovAI-Sholat Khusu',
               style: TextStyle(color: Colors.white, fontSize: 24),
             ),
           ),
           ListTile(
-            leading: const Icon(Icons.login),
-            title: const Text('Login'),
+            leading: const Icon(Icons.info),
+            title: const Text('About'),
             onTap: () {
-              if (onLogin != null) {
-                onLogin!(); // Trigger the login callback
-              }
               Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AboutScreen()),
+              );
             },
           ),
           ListTile(
-            leading: const Icon(Icons.logout),
-            title: const Text('Logout'),
-            onTap: () {
-              if (onLogout != null) {
-                onLogout!(); // Trigger the logout callback
-              }
-              Navigator.pop(context);
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.subscriptions),
+            leading: const Icon(Icons.star),
             title: const Text('Subscribe'),
             onTap: () {
-              if (onSubscribe != null) {
-                onSubscribe!(); // Trigger the subscribe callback
-              }
               Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SubscribeScreen(),
+                ),
+              );
             },
           ),
         ],

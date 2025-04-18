@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'dart:async';
 import 'app_drawer.dart';
 import 'bacaan_screen.dart';
 import 'tips_khusu_screen.dart';
@@ -8,7 +9,7 @@ import 'gerakan_screen.dart';
 import 'surah_screen.dart';
 import 'dzikir_screen.dart';
 import 'doa_screen.dart';
-// Removing import: import 'gps_kiblat_screen.dart'
+import 'waktu_sholat_screen.dart'; // Import the new screen
 
 // Ensure plugins are initialized properly before app starts
 void main() async {
@@ -54,6 +55,8 @@ class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   int _selectedIndex = 0;
   TabController? _mainTabController;
+  String _currentTime = '';
+  late Timer _timer;
 
   // Define our main categories
   final List<TabCategory> _categories = [
@@ -64,6 +67,11 @@ class _MyHomePageState extends State<MyHomePage>
       screens: [TipsKhusuScreen(), GerakanScreen(), BacaanScreen()],
       tabLabels: ['Tips Khusu', 'Gerakan', 'Bacaan'],
       tabIcons: [Icons.book, Icons.accessibility_new, Icons.directions_run],
+    ),
+    TabCategory(
+      title: 'Waktu',
+      icon: Icons.access_time,
+      screens: [WaktuSholatScreen()],
     ),
     TabCategory(
       title: 'Lainnya',
@@ -80,6 +88,25 @@ class _MyHomePageState extends State<MyHomePage>
     // Initialize the controller after super.initState()
     _mainTabController = TabController(length: _categories.length, vsync: this);
     _mainTabController!.addListener(_handleTabSelection);
+
+    // Initialize time and set up timer for real-time updates
+    _updateTime();
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      _updateTime();
+    });
+  }
+
+  void _updateTime() {
+    final now = DateTime.now();
+    final timeString =
+        '${_formatTimeUnit(now.hour)}:${_formatTimeUnit(now.minute)}:${_formatTimeUnit(now.second)}';
+    setState(() {
+      _currentTime = timeString;
+    });
+  }
+
+  String _formatTimeUnit(int unit) {
+    return unit < 10 ? '0$unit' : '$unit';
   }
 
   @override
@@ -87,6 +114,7 @@ class _MyHomePageState extends State<MyHomePage>
     // Safely remove listener and dispose
     _mainTabController?.removeListener(_handleTabSelection);
     _mainTabController?.dispose();
+    _timer.cancel(); // Cancel timer when widget is disposed
     super.dispose();
   }
 
@@ -112,24 +140,52 @@ class _MyHomePageState extends State<MyHomePage>
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
+        title: Row(
+          children: [
+            Text(widget.title),
+            const Spacer(),
+            // Current time display
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.access_time, size: 16),
+                  const SizedBox(width: 4),
+                  Text(_currentTime, style: const TextStyle(fontSize: 14)),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
       drawer: const AppDrawer(),
       body: Column(
         children: [
           // Main category selector at the top
-          TabBar(
-            controller: _mainTabController!,
-            tabs:
-                _categories
-                    .map(
-                      (category) =>
-                          Tab(icon: Icon(category.icon), text: category.title),
-                    )
-                    .toList(),
-            labelColor: Colors.deepPurple,
-            unselectedLabelColor: Colors.grey,
-            indicatorColor: Colors.deepPurple,
+          Container(
+            alignment: Alignment.center,
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: TabBar(
+              controller: _mainTabController!,
+              tabs:
+                  _categories
+                      .map(
+                        (category) => Tab(
+                          icon: Icon(category.icon),
+                          text: category.title,
+                        ),
+                      )
+                      .toList(),
+              labelColor: Colors.deepPurple,
+              unselectedLabelColor: Colors.grey,
+              indicatorColor: Colors.deepPurple,
+              labelPadding: const EdgeInsets.symmetric(horizontal: 16.0),
+              isScrollable: true,
+            ),
           ),
 
           // Content area with bottom sub-tabs
