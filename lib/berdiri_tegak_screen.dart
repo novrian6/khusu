@@ -152,6 +152,13 @@ class _BerdiriTegakScreenState extends State<BerdiriTegakScreen> {
             const Divider(thickness: 2.0, color: Colors.deepPurple),
             const SizedBox(height: 20.0),
 
+            const Text(
+              'Saat berdiri tegak, dimulai dengan membaca Al-Fatihah. Setelah itu, lanjutkan dengan membaca salah satu surah atau lebih dari pilihan berikut.',
+              style: TextStyle(fontSize: 18.0, color: Colors.black87),
+              textAlign: TextAlign.justify,
+            ),
+            const SizedBox(height: 20.0),
+
             ExpansionTile(
               title: const Text(
                 '1. Baca Al-Fatihah',

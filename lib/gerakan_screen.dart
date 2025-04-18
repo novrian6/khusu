@@ -66,6 +66,31 @@ class GerakanScreen extends StatelessWidget {
           ),
           ListTile(
             leading: const Icon(Icons.directions_run),
+            title: const Text('Doa Iftitah'),
+            subtitle: const Text('Membaca doa iftitah sebelum Al-Fatihah.'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder:
+                      (context) => const GerakanDetailScreen(
+                        title: 'Doa Iftitah',
+                        description: 'Membaca doa iftitah sebelum Al-Fatihah.',
+                        arabicText:
+                            'إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ',
+                        transliteration:
+                            'Inni wajjahtu wajhiya lilladzii fatharas samaawaati wal-ardha haniifan musliman wa maa ana minal musyrikiin',
+                        indonesianTranslation:
+                            'Sesungguhnya aku menghadapkan wajahku kepada Allah yang menciptakan langit dan bumi dengan lurus dan berserah diri, dan aku bukanlah termasuk orang-orang yang mempersekutukan-Nya.',
+                        englishTranslation:
+                            'Indeed, I have turned my face toward Allah, who created the heavens and the earth, inclining toward truth, and I am not of those who associate others with Him.',
+                      ),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.directions_run),
             title: const Text('Berdiri Tegak'),
             subtitle: const Text('Membaca surat Al-Fatihah dan surat pendek.'),
             onTap: () {

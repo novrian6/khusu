@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'app_drawer.dart'; // Import the AppDrawer
 import 'gerakan_screen.dart'; // Import the GerakanScreen
+import 'tips_khusu_screen.dart'; // Import the TipsKhusuScreen
+import 'home_screen.dart'; // Import the HomeScreen
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +36,8 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   static const List<Widget> _widgetOptions = <Widget>[
-    Text('Bacaan Page'), // Bacaan tab content
+    HomeScreen(), // Home tab content
+    TipsKhusuScreen(), // Tips Khusu tab content
     GerakanScreen(), // Gerakan tab content
     Text('Surah Page'), // Surah tab content
   ];
@@ -57,20 +60,28 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home', // Home tab
+          ),
+          BottomNavigationBarItem(
             icon: Icon(Icons.book),
-            label: 'Bacaan..',
-          ), // Bacaan tab
+            label: 'Tips Khusu', // Tips Khusu tab
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.directions_run),
-            label: 'Gerakan..',
-          ), // Gerakan tab
+            label: 'Bacaan Sholat', // Updated tab label
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.menu_book),
-            label: 'Surah..',
-          ), // Surah tab
+            label: 'Surah..', // Surah tab
+          ),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.deepPurple,
+        unselectedItemColor:
+            Colors.grey, // Tambahkan warna untuk label yang tidak dipilih
+        showUnselectedLabels:
+            true, // Pastikan label untuk tab yang tidak dipilih tetap terlihat
         onTap: _onItemTapped,
       ),
     );
