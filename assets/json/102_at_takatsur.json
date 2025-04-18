@@ -1,0 +1,64 @@
+{
+  "number": 102,
+  "name": "At-Takatsur",
+  "verses": 8,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "أَلْهَاكُمُ التَّكَاثُرُ",
+      "transliteration": "Alhakumu attakatsur",
+      "indonesian": "Bermegah-megahan telah melalaikan kamu,",
+      "english": "Competition in [worldly] increase diverts you"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
+      "transliteration": "Hatta zurtumu almaqabir",
+      "indonesian": "sampai kamu masuk ke dalam kubur.",
+      "english": "Until you visit the graveyards."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "transliteration": "Kalla sawfa ta'lamun",
+      "indonesian": "Sekali-kali tidak! Kelak kamu akan mengetahui.",
+      "english": "No! You are going to know."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "transliteration": "Thumma kalla sawfa ta'lamun",
+      "indonesian": "Kemudian sekali-kali tidak! Kelak kamu akan mengetahui.",
+      "english": "Then no! You are going to know."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
+      "transliteration": "Kalla law ta'lamuna 'ilmal yaqin",
+      "indonesian": "Sekali-kali tidak! Sekiranya kamu mengetahui dengan pengetahuan yang yakin,",
+      "english": "No! If you only knew with knowledge of certainty..."
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "لَتَرَوُنَّ الْجَحِيمَ",
+      "transliteration": "Latarawunna aljahim",
+      "indonesian": "niscaya kamu benar-benar akan melihat neraka Jahim.",
+      "english": "You will surely see the Hellfire."
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
+      "transliteration": "Thumma latarawunnaha 'ainal yaqin",
+      "indonesian": "Kemudian kamu benar-benar akan melihatnya dengan mata kepala sendiri.",
+      "english": "Then you will surely see it with the eye of certainty."
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
+      "transliteration": "Thumma latus-alunna yauma-izin 'anin na'im",
+      "indonesian": "Kemudian kamu pasti akan ditanya pada hari itu tentang kenikmatan (yang megah di dunia itu).",
+      "english": "Then you will surely be asked that Day about pleasure."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "number": 98,
+  "name": "Al-Bayyinah",
+  "verses": 8,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+      "transliteration": "Lam yakunilladzina kafaru min ahlil kitabi walmushrikina munfakkina hatta ta'tiyahumul bayyinah",
+      "indonesian": "Orang-orang yang kafir dari golongan Ahli Kitab dan orang-orang musyrik tidak akan meninggalkan (agamanya) sampai datang kepada mereka bukti yang nyata,",
+      "english": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence—"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "رَسُولٌ مِّنَ اللَّهِ يَتْلُو صُحُفًا مُّطَهَّرَةً",
+      "transliteration": "Rasulun minallahi yatlu suhufan muthahharah",
+      "indonesian": "(yaitu) seorang Rasul dari Allah yang membacakan lembaran-lembaran yang disucikan (Al-Qur'an),",
+      "english": "A Messenger from Allah, reciting purified scriptures"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "فِيهَا كُتُبٌ قَيِّمَةٌ",
+      "transliteration": "Fiha kutubun qayyimah",
+      "indonesian": "di dalamnya terdapat (isi) kitab-kitab yang lurus.",
+      "english": "Within which are correct writings."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ",
+      "transliteration": "Wama tafarraqalladzina utul kitaba illa min ba'di ma ja'at humul bayyinah",
+      "indonesian": "Dan tidaklah berpecah belah orang-orang yang diberi Kitab, melainkan setelah datang kepada mereka bukti yang nyata.",
+      "english": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ وَذَٰلِكَ دِينُ الْقَيِّمَةِ",
+      "transliteration": "Wama umiru illa liya'budullaha mukhlisina lahuddin hunafa wa yuqimus salata wa yu'tuz zakata wa zalika dinul qayyimah",
+      "indonesian": "Padahal mereka hanya diperintahkan menyembah Allah dengan ikhlas menaati-Nya semata-mata karena (menjalankan) agama, dan juga agar melaksanakan salat dan menunaikan zakat; dan yang demikian itulah agama yang lurus.",
+      "english": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion."
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
+      "transliteration": "Innal ladhina kafaru min ahlil kitabi wal mushrikina fi nari jahannama khalidina fiha ulaika hum syarrul bariyyah",
+      "indonesian": "Sungguh, orang-orang yang kafir dari golongan Ahli Kitab dan orang-orang musyrik (akan masuk) ke neraka Jahannam; mereka kekal di dalamnya. Mereka itulah seburuk-buruk makhluk.",
+      "english": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures."
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
+      "transliteration": "Innal ladhina amanu wa amilu shalihati ulaika hum khairul bariyyah",
+      "indonesian": "Sungguh, orang-orang yang beriman dan mengerjakan kebajikan, mereka itulah sebaik-baik makhluk.",
+      "english": "Indeed, they who have believed and done righteous deeds - those are the best of creatures."
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّـٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًۭا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
+      "transliteration": "Jaza'uhum inda rabbihim jannatu adnin tajri min tahtihal anharu khalidina fiha abada radiyallahu anhum wa radu anhu zalika liman khashiya rabbah",
+      "indonesian": "Balasan mereka di sisi Tuhan mereka ialah surga 'Adn yang mengalir di bawahnya sungai-sungai; mereka kekal di dalamnya selama-lamanya. Allah ridha terhadap mereka dan mereka pun ridha kepada-Nya. Yang demikian itu adalah (balasan) bagi orang yang takut kepada Tuhannya.",
+      "english": "Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord."
+    }
+  ]
+}

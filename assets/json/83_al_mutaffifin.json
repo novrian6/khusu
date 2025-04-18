@@ -1,0 +1,260 @@
+{
+  "number": 83,
+  "name": "Al-Mutaffifin",
+  "verses": 36,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "وَيْلٌ لِلْمُطَفِّفِينَ",
+      "transliteration": "Waylun lilmutaffifeen",
+      "indonesian": "Celakalah bagi orang-orang yang curang,",
+      "english": "Woe to those who give less [than due],"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ",
+      "transliteration": "Allatheena itha iktaloo AAala annasi yastawfoon",
+      "indonesian": "yaitu orang-orang yang apabila menerima takaran dari orang lain mereka minta dipenuhi,",
+      "english": "Who, when they take a measure from people, take in full."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "وَإِذَا كَالُوهُمْ أَوْ وَزَنُوهُمْ يُخْسِرُونَ",
+      "transliteration": "Waitha kalooohum aw wazanoohum yukhsiroon",
+      "indonesian": "dan apabila mereka menakar atau menimbang untuk orang lain, mereka mengurangi.",
+      "english": "But if they give by measure or by weight to them, they cause loss."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+      "transliteration": "Ala yathunnu ola-ika annahum mabAAoothoon",
+      "indonesian": "Tidakkah mereka itu menyangka, bahwa sesungguhnya mereka akan dibangkitkan,",
+      "english": "Do they not think that they will be resurrected"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "لِيَوْمٍ عَظِيمٍ",
+      "transliteration": "Liyawmin AAatheem",
+      "indonesian": "pada suatu hari yang besar,",
+      "english": "For a tremendous Day—"
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ",
+      "transliteration": "Yawma yaqoomu annasu lirabbi alAAalameen",
+      "indonesian": "yaitu hari (ketika) manusia berdiri menghadap Tuhan semesta alam?",
+      "english": "The Day when mankind will stand before the Lord of the worlds?"
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "كَلَّا إِنَّ كِتَابَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+      "transliteration": "Kalla inna kitaba alfujjari lafee sijjeen",
+      "indonesian": "Sekali-kali tidak! Sesungguhnya catatan orang yang durhaka benar-benar tersimpan dalam Sijjin.",
+      "english": "No! Indeed, the record of the wicked is in sijjeen."
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "وَمَا أَدْرَىٰكَ مَا سِجِّينٌ",
+      "transliteration": "Wama adraka ma sijjeen",
+      "indonesian": "Dan tahukah kamu apakah Sijjin itu?",
+      "english": "And what can make you know what is sijjeen?"
+    },
+    {
+      "no_ayah": 9,
+      "arabic": "كِتَٰبٌ مَّرْقُومٌ",
+      "transliteration": "Kitabun marqoom",
+      "indonesian": "(Itulah) kitab yang bertulis.",
+      "english": "It is [their destination recorded in] a register inscribed."
+    },
+    {
+      "no_ayah": 10,
+      "arabic": "وَيْلٌ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "transliteration": "Waylun yawma-ithin lilmukaththibeen",
+      "indonesian": "Celakalah pada hari itu, bagi orang-orang yang mendustakan,",
+      "english": "Woe, that Day, to the deniers,"
+    },
+    {
+      "no_ayah": 11,
+      "arabic": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
+      "transliteration": "Allatheena yukaththiboona biyawmi addeen",
+      "indonesian": "yaitu orang-orang yang mendustakan hari pembalasan.",
+      "english": "Who deny the Day of Recompense."
+    },
+    {
+      "no_ayah": 12,
+      "arabic": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+      "transliteration": "Wama yukaththibu bihi illa kullu muAAtadin atheem",
+      "indonesian": "Dan tidak ada yang mendustakan hari pembalasan itu melainkan setiap orang yang melampaui batas lagi berdosa,",
+      "english": "And none deny it except every sinful transgressor."
+    },
+    {
+      "no_ayah": 13,
+      "arabic": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "transliteration": "Itha tutla AAalayhi ayatuna qala asateeru al-awwaleen",
+      "indonesian": "yang apabila dibacakan kepadanya ayat-ayat Kami, dia berkata, 'Itu adalah dongeng-dongeng orang dahulu.'",
+      "english": "When Our verses are recited to him, he says, 'Legends of the former peoples.'"
+    },
+    {
+      "no_ayah": 14,
+      "arabic": "كَلَّا بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "transliteration": "Kalla bal rana AAala quloobihim ma kanoo yaksiboon",
+      "indonesian": "Sekali-kali tidak! Bahkan apa yang mereka kerjakan itu telah menutupi hati mereka.",
+      "english": "No! Rather, the stain has covered their hearts of that which they were earning."
+    },
+    {
+      "no_ayah": 15,
+      "arabic": "كَلَّا إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ",
+      "transliteration": "Kalla innahum AAan rabbihim yawma-ithin lamahjooboon",
+      "indonesian": "Sekali-kali tidak! Sesungguhnya mereka pada hari itu benar-benar terhalang dari (melihat) Tuhan mereka.",
+      "english": "No! Indeed, from their Lord, that Day, they will be partitioned."
+    },
+    {
+      "no_ayah": 16,
+      "arabic": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+      "transliteration": "Thumma innahum lasaloo aljaheem",
+      "indonesian": "Kemudian, sesungguhnya mereka benar-benar masuk ke dalam neraka.",
+      "english": "Then indeed, they will [enter and] burn in Hellfire."
+    },
+    {
+      "no_ayah": 17,
+      "arabic": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "transliteration": "Thumma yuqalu hatha allathee kuntum bihi tukaththiboon",
+      "indonesian": "Kemudian dikatakan (kepada mereka), 'Inilah (azab) yang dahulu selalu kamu dustakan.'",
+      "english": "Then it will be said [to them], 'This is what you used to deny.'"
+    },
+    {
+      "no_ayah": 18,
+      "arabic": "كَلَّا إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+      "transliteration": "Kalla inna kitaba al-abrar lafee AAilliyyeen",
+      "indonesian": "Sekali-kali tidak! Sesungguhnya catatan orang yang berbakti benar-benar tersimpan dalam 'Illiyyin.",
+      "english": "No! Indeed, the record of the righteous is in 'illiyyun."
+    },
+    {
+      "no_ayah": 19,
+      "arabic": "وَمَا أَدْرَىٰكَ مَا عِلِّيُّونَ",
+      "transliteration": "Wama adraka ma AAilliyoon",
+      "indonesian": "Dan tahukah kamu apakah 'Illiyyin itu?",
+      "english": "And what can make you know what is 'illiyyun?"
+    },
+    {
+      "no_ayah": 20,
+      "arabic": "كِتَٰبٌ مَّرْقُومٌ",
+      "transliteration": "Kitabun marqoom",
+      "indonesian": "(Itulah) kitab yang bertulis,",
+      "english": "It is [their destination recorded in] a register inscribed."
+    },
+    {
+      "no_ayah": 21,
+      "arabic": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+      "transliteration": "Yashhaduhu almuqarraboon",
+      "indonesian": "yang disaksikan oleh para malaikat yang didekatkan (kepada Allah).",
+      "english": "Which is witnessed by those brought near [to Allah]."
+    },
+    {
+      "no_ayah": 22,
+      "arabic": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+      "transliteration": "Inna al-abrar lafee naAAeem",
+      "indonesian": "Sesungguhnya orang-orang yang berbakti benar-benar berada dalam kenikmatan yang besar (surga),",
+      "english": "Indeed, the righteous will be in pleasure."
+    },
+    {
+      "no_ayah": 23,
+      "arabic": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+      "transliteration": "AAala al-ara-iki yanthuroon",
+      "indonesian": "mereka (duduk) di atas dipan-dipan sambil memandang (kenikmatan).",
+      "english": "On adorned couches, observing."
+    },
+    {
+      "no_ayah": 24,
+      "arabic": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+      "transliteration": "TaAArifu fee wujoohihim nathrata annaAAeem",
+      "indonesian": "Kamu dapat mengetahui dari wajah mereka kesenangan mereka yang penuh kenikmatan.",
+      "english": "You will recognize in their faces the radiance of pleasure."
+    },
+    {
+      "no_ayah": 25,
+      "arabic": "يُسْقَوْنَ مِن رَّحِيقٍۢ مَّخْتُومٍ",
+      "transliteration": "Yusqawna min raheeqin makhtoom",
+      "indonesian": "Mereka diberi minum dengan anggur murni yang masih tersegel,",
+      "english": "They will be given to drink [pure] wine which was sealed."
+    },
+    {
+      "no_ayah": 26,
+      "arabic": "خِتَٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+      "transliteration": "Khitamuhu miskun wafee thalika falyatanafasi almutanafisoon",
+      "indonesian": "Segelnya adalah kasturi; dan untuk yang demikian itu hendaknya orang berlomba-lomba.",
+      "english": "The last of it is musk. So for this let the competitors compete."
+    },
+    {
+      "no_ayah": 27,
+      "arabic": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
+      "transliteration": "Wamizajuhu min tasneem",
+      "indonesian": "Dan campurannya adalah dari tasnim,",
+      "english": "And its mixture is of Tasneem,"
+    },
+    {
+      "no_ayah": 28,
+      "arabic": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+      "transliteration": "AAaynan yashrabu biha almuqarraboon",
+      "indonesian": "(yaitu) mata air yang diminum oleh orang-orang yang dekat (kepada Allah).",
+      "english": "A spring from which those near [to Allah] drink."
+    },
+    {
+      "no_ayah": 29,
+      "arabic": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+      "transliteration": "Inna allatheena ajramoo kanoo mina allatheena amanoo yadhakoon",
+      "indonesian": "Sesungguhnya orang-orang yang berdosa, adalah mereka yang dahulu menertawakan orang-orang yang beriman.",
+      "english": "Indeed, those who committed crimes used to laugh at those who believed."
+    },
+    {
+      "no_ayah": 30,
+      "arabic": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+      "transliteration": "Wa-itha marroo bihim yataghamazoon",
+      "indonesian": "Dan apabila orang-orang yang beriman itu berlalu di hadapan mereka, mereka saling mengedipkan matanya.",
+      "english": "And when they passed by them, they would exchange derisive glances."
+    },
+    {
+      "no_ayah": 31,
+      "arabic": "وَإِذَا ٱنقَلَبُوا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+      "transliteration": "Wa-itha inqalaboo ila ahlihim inqalaboo fakiheen",
+      "indonesian": "Dan apabila mereka kembali kepada kaumnya, mereka kembali dengan gembira.",
+      "english": "And when they returned to their people, they would return jesting."
+    },
+    {
+      "no_ayah": 32,
+      "arabic": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَالُّونَ",
+      "transliteration": "Wa-itha raawhum qaloo inna haola-i ladalloon",
+      "indonesian": "Dan apabila mereka melihat orang-orang mukmin, mereka berkata, 'Sesungguhnya mereka itu benar-benar orang-orang yang sesat,'",
+      "english": "And when they saw them, they would say, 'Indeed, those are truly lost.'"
+    },
+    {
+      "no_ayah": 33,
+      "arabic": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ",
+      "transliteration": "Wama orsiloo AAalayhim hafitheen",
+      "indonesian": "Padahal orang-orang yang berdosa itu tidak dikirim untuk menjadi penjaga bagi orang-orang mukmin.",
+      "english": "But they had not been sent as guardians over them."
+    },
+    {
+      "no_ayah": 34,
+      "arabic": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+      "transliteration": "Falyawma allatheena amanoo mina alkuffari yadhakoon",
+      "indonesian": "Maka pada hari ini, orang-orang yang beriman menertawakan orang-orang kafir,",
+      "english": "So Today those who believed are laughing at the disbelievers,"
+    },
+    {
+      "no_ayah": 35,
+      "arabic": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+      "transliteration": "AAala al-ara-iki yanthuroon",
+      "indonesian": "sambil duduk di atas dipan-dipan memandang.",
+      "english": "On adorned couches, observing."
+    },
+    {
+      "no_ayah": 36,
+      "arabic": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+      "transliteration": "Hal thuwwiba alkuffaru ma kanoo yafAAaloon",
+      "indonesian": "Sesungguhnya orang-orang kafir telah diberi ganjaran terhadap apa yang dahulu mereka kerjakan.",
+      "english": "Have the disbelievers [not] been rewarded [this Day] for what they used to do?"
+    }
+  ]
+}

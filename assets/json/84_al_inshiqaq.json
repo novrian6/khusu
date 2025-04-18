@@ -1,0 +1,183 @@
+{
+  "number": 84,
+  "name": "Al-Inshiqaq",
+  "verses": 25,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "إِذَا السَّمَاءُ انشَقَّتْ",
+      "transliteration": "Itha alssamao inshaqqat",
+      "indonesian": "Apabila langit terbelah,",
+      "english": "When the sky has split [open]"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "transliteration": "Waathinat lirabbiha wahuqqat",
+      "indonesian": "dan patuh kepada Tuhannya, dan sudah semestinya patuh,",
+      "english": "And has listened to its Lord and was obligated [to do so]"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "وَإِذَا الْأَرْضُ مُدَّتْ",
+      "transliteration": "Waitha alardu muddat",
+      "indonesian": "dan apabila bumi diratakan,",
+      "english": "And when the earth has been extended"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+      "transliteration": "Waalqat ma feeha watakhallat",
+      "indonesian": "dan memuntahkan apa yang ada di dalamnya dan menjadi kosong,",
+      "english": "And has cast out that within it and relinquished [it]"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "transliteration": "Waathinat lirabbiha wahuqqat",
+      "indonesian": "dan patuh kepada Tuhannya, dan sudah semestinya patuh.",
+      "english": "And has listened to its Lord and was obligated [to do so]"
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "يَا أَيُّهَا الْإِنسَانُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَاقِيهِ",
+      "transliteration": "Ya ayyuha alinsanu innaka kadihun ila rabbika kadhan famulaqeeh",
+      "indonesian": "Wahai manusia! Sesungguhnya kamu telah bekerja keras menuju Tuhanmu, maka kamu akan menemui-Nya.",
+      "english": "O mankind, indeed you are laboring toward your Lord with [great] exertion and will meet it."
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ",
+      "transliteration": "Faamma man ootiya kitabahu biyameenihi",
+      "indonesian": "Adapun orang yang diberikan kitabnya dari sebelah kanannya,",
+      "english": "Then as for he who is given his record in his right hand,"
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+      "transliteration": "Fasawfa yuhasabu hisaban yaseeran",
+      "indonesian": "maka dia akan diperiksa dengan pemeriksaan yang mudah,",
+      "english": "He will be judged with an easy account"
+    },
+    {
+      "no_ayah": 9,
+      "arabic": "وَيَنقَلِبُ إِلَىٰ أَهْلِهِ مَسْرُورًا",
+      "transliteration": "Wayanqalibu ila ahlihi masrooran",
+      "indonesian": "dan dia akan kembali kepada keluarganya (yang sama-sama beriman) dengan gembira.",
+      "english": "And return to his people in happiness."
+    },
+    {
+      "no_ayah": 10,
+      "arabic": "وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ وَرَاءَ ظَهْرِهِ",
+      "transliteration": "Waamma man ootiya kitabahu waraa thahrihi",
+      "indonesian": "Adapun orang yang diberikan kitabnya dari belakang,",
+      "english": "But as for he who is given his record behind his back,"
+    },
+    {
+      "no_ayah": 11,
+      "arabic": "فَسَوْفَ يَدْعُو ثُبُورًا",
+      "transliteration": "Fasawfa yadAAoo thubooran",
+      "indonesian": "maka dia akan berteriak, 'Celakalah aku!'",
+      "english": "He will cry out for destruction"
+    },
+    {
+      "no_ayah": 12,
+      "arabic": "وَيَصْلَىٰ سَعِيرًا",
+      "transliteration": "Wayasla saAAeeran",
+      "indonesian": "dan dia akan masuk ke dalam api yang menyala-nyala (neraka).",
+      "english": "And burn in a Blaze."
+    },
+    {
+      "no_ayah": 13,
+      "arabic": "إِنَّهُ كَانَ فِي أَهْلِهِ مَسْرُورًا",
+      "transliteration": "Innahu kana fee ahlihi masrooran",
+      "indonesian": "Sesungguhnya dia (di dunia) bergembira di kalangan keluarganya (yang sesat).",
+      "english": "Indeed, he had [once] been among his people in happiness;"
+    },
+    {
+      "no_ayah": 14,
+      "arabic": "إِنَّهُ ظَنَّ أَن لَّن يَحُورَ",
+      "transliteration": "Innahu thanna an lan yahoor",
+      "indonesian": "Sesungguhnya dia mengira bahwa dia tidak akan kembali (kepada Tuhannya).",
+      "english": "Indeed, he had thought he would never return [to Allah]."
+    },
+    {
+      "no_ayah": 15,
+      "arabic": "بَلَىٰ إِنَّ رَبَّهُ كَانَ بِهِ بَصِيرًا",
+      "transliteration": "Bala inna rabbahu kana bihi baseeran",
+      "indonesian": "Tidak demikian, sesungguhnya Tuhannya selalu melihatnya.",
+      "english": "But yes! Indeed, his Lord was ever of him, Seeing."
+    },
+    {
+      "no_ayah": 16,
+      "arabic": "فَلَا أُقْسِمُ بِالشَّفَقِ",
+      "transliteration": "Fala oqsimu bialshshafaq",
+      "indonesian": "Maka Aku bersumpah demi cahaya merah di waktu senja,",
+      "english": "So I swear by the twilight glow"
+    },
+    {
+      "no_ayah": 17,
+      "arabic": "وَاللَّيْلِ وَمَا وَسَقَ",
+      "transliteration": "Waallayli wama wasaq",
+      "indonesian": "dan demi malam serta apa yang diselubunginya,",
+      "english": "And [by] the night and what it envelops"
+    },
+    {
+      "no_ayah": 18,
+      "arabic": "وَالْقَمَرِ إِذَا اتَّسَقَ",
+      "transliteration": "Waalqamari itha ittasaq",
+      "indonesian": "dan demi bulan apabila menjadi purnama,",
+      "english": "And [by] the moon when it becomes full"
+    },
+    {
+      "no_ayah": 19,
+      "arabic": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
+      "transliteration": "Latarkabunna tabaqan AAan tabaq",
+      "indonesian": "sungguh, kamu akan melalui tingkat demi tingkat (dalam kehidupan).",
+      "english": "You will surely experience state after state."
+    },
+    {
+      "no_ayah": 20,
+      "arabic": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+      "transliteration": "Fama lahum la yuminoon",
+      "indonesian": "Maka mengapa mereka tidak mau beriman?",
+      "english": "So what is [the matter] with them [that] they do not believe,"
+    },
+    {
+      "no_ayah": 21,
+      "arabic": "وَإِذَا قُرِئَ عَلَيْهِمُ الْقُرْآنُ لَا يَسْجُدُونَ",
+      "transliteration": "Waitha quriAAa AAalayhimu alquranu la yasjudoona",
+      "indonesian": "dan apabila Al-Qur'an dibacakan kepada mereka, mereka tidak bersujud?",
+      "english": "And when the Qur'an is recited to them, they do not prostrate [to Allah]?"
+    },
+    {
+      "no_ayah": 22,
+      "arabic": "بَلِ الَّذِينَ كَفَرُوا يُكَذِّبُونَ",
+      "transliteration": "Bali allatheena kafaroo yukaththiboon",
+      "indonesian": "Bahkan orang-orang kafir itu mendustakan (nya).",
+      "english": "But those who have disbelieved deny,"
+    },
+    {
+      "no_ayah": 23,
+      "arabic": "وَاللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+      "transliteration": "WaAllahu aAAlamu bima yooAAoon",
+      "indonesian": "Padahal Allah mengetahui apa yang mereka sembunyikan (dalam hati mereka).",
+      "english": "But Allah is most knowing of what they keep within themselves."
+    },
+    {
+      "no_ayah": 24,
+      "arabic": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "transliteration": "Fabashshirhum biAAathabin aleem",
+      "indonesian": "Maka beri kabar gembira kepada mereka dengan azab yang pedih,",
+      "english": "So give them tidings of a painful punishment,"
+    },
+    {
+      "no_ayah": 25,
+      "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "transliteration": "Illa allatheena amanoo waAAamiloo alssalihati lahum ajrun ghayru mamnoon",
+      "indonesian": "kecuali orang-orang yang beriman dan mengerjakan kebajikan, mereka akan mendapat pahala yang tidak ada putus-putusnya.",
+      "english": "Except for those who believe and do righteous deeds. For them is a reward uninterrupted."
+    }
+  ]
+}

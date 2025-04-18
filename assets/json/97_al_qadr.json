@@ -1,0 +1,43 @@
+{
+  "number": 97,
+  "name": "Al-Qadr",
+  "verses": 5,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+      "transliteration": "Inna anzalnahu fi laylatil qadr",
+      "indonesian": "Sungguh, Kami telah menurunkannya (Al-Qur'an) pada malam qadar.",
+      "english": "Indeed, We sent the Qur'an down during the Night of Decree."
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+      "transliteration": "Wama adraka ma laylatul qadr",
+      "indonesian": "Dan tahukah kamu apa malam kemuliaan itu?",
+      "english": "And what can make you know what is the Night of Decree?"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+      "transliteration": "Laylatul qadr khairun min alfi shahr",
+      "indonesian": "Malam kemuliaan itu lebih baik daripada seribu bulan.",
+      "english": "The Night of Decree is better than a thousand months."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+      "transliteration": "Tanazzalul malaikatu warruhu fiha bi-idzni rabbihim min kulli amr",
+      "indonesian": "Pada malam itu turun para malaikat dan Ruh (Jibril) dengan izin Tuhannya untuk mengatur segala urusan.",
+      "english": "The angels and the Spirit descend therein by permission of their Lord for every matter."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+      "transliteration": "Salamun hiya hatta matla'il fajr",
+      "indonesian": "Sejahteralah (malam itu) sampai terbit fajar.",
+      "english": "Peace it is until the emergence of dawn."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "number": 82,
+  "name": "Al-Infitar",
+  "verses": 19,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "إِذَا السَّمَاءُ انفَطَرَتْ",
+      "transliteration": "Itha assamao infatarat",
+      "indonesian": "Apabila langit terbelah,",
+      "english": "When the sky breaks apart"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "وَإِذَا الْكَوَاكِبُ انتَثَرَتْ",
+      "transliteration": "Wa-itha alkawakibu intatharat",
+      "indonesian": "dan apabila bintang-bintang jatuh berserakan,",
+      "english": "And when the stars fall, scattering,"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "وَإِذَا الْبِحَارُ فُجِّرَتْ",
+      "transliteration": "Wa-itha albiharu fujjirat",
+      "indonesian": "dan apabila lautan dijadikan meluap,",
+      "english": "And when the seas are erupted"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "وَإِذَا الْقُبُورُ بُعْثِرَتْ",
+      "transliteration": "Wa-itha alqubooru buAAthirat",
+      "indonesian": "dan apabila kuburan-kuburan dibongkar,",
+      "english": "And when the graves are turned upside down"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "عَلِمَتْ نَفْسٌ مَا قَدَّمَتْ وَأَخَّرَتْ",
+      "transliteration": "AAalimat nafsun ma qaddamat waakhkharat",
+      "indonesian": "maka setiap jiwa akan mengetahui apa yang telah dikerjakan dan yang dilalaikannya.",
+      "english": "A soul will [then] know what it has put forth and kept back."
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "يَا أَيُّهَا الْإِنسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ",
+      "transliteration": "Ya ayyuha al-insanu ma gharraka birabbika alkareem",
+      "indonesian": "Wahai manusia! Apakah yang telah memperdayakanmu (berbuat durhaka) terhadap Tuhanmu Yang Maha Mulia,",
+      "english": "O mankind, what has deceived you concerning your Lord, the Generous,"
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ",
+      "transliteration": "Allathee khalaqaka fasawwakah faAAadalak",
+      "indonesian": "yang telah menciptakanmu lalu menyempurnakan (kejadiannmu) dan menjadikan (susunan tubuh)mu seimbang,",
+      "english": "Who created you, proportioned you, and balanced you?"
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ",
+      "transliteration": "Fee ayyi sooratin ma shaa rakkabak",
+      "indonesian": "dalam bentuk apa saja yang Dia kehendaki, Dia menyusun tubuhmu.",
+      "english": "In whatever form He willed has He assembled you."
+    },
+    {
+      "no_ayah": 9,
+      "arabic": "كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ",
+      "transliteration": "Kalla bal tukaththiboona biddeen",
+      "indonesian": "Sekali-kali jangan begitu! Bahkan kamu mendustakan hari pembalasan.",
+      "english": "No! But you deny the Recompense."
+    },
+    {
+      "no_ayah": 10,
+      "arabic": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ",
+      "transliteration": "Wa-inna AAalaykum lahafitheen",
+      "indonesian": "Padahal sesungguhnya bagi kamu ada (malaikat-malaikat) yang mengawasi (pekerjaanmu),",
+      "english": "And indeed, [appointed] over you are keepers,"
+    },
+    {
+      "no_ayah": 11,
+      "arabic": "كِرَامًا كَاتِبِينَ",
+      "transliteration": "Kiraman katibeen",
+      "indonesian": "yang mulia (di sisi Allah) dan mencatat (amal perbuatanmu),",
+      "english": "Noble and recording;"
+    },
+    {
+      "no_ayah": 12,
+      "arabic": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+      "transliteration": "YaAAlamoona ma tafAAaloon",
+      "indonesian": "mereka mengetahui apa yang kamu kerjakan.",
+      "english": "They know whatever you do."
+    },
+    {
+      "no_ayah": 13,
+      "arabic": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+      "transliteration": "Inna al-abrar lafee naAAeem",
+      "indonesian": "Sesungguhnya orang-orang yang berbakti benar-benar berada dalam (surga yang penuh) kenikmatan,",
+      "english": "Indeed, the righteous will be in pleasure,"
+    },
+    {
+      "no_ayah": 14,
+      "arabic": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
+      "transliteration": "Wa-inna alfujjara lafee jaheem",
+      "indonesian": "dan sesungguhnya orang-orang yang durhaka benar-benar berada dalam neraka,",
+      "english": "And indeed, the wicked will be in Hellfire."
+    },
+    {
+      "no_ayah": 15,
+      "arabic": "يَصْلَوْنَهَا يَوْمَ الدِّينِ",
+      "transliteration": "Yaslawnaha yawma addeen",
+      "indonesian": "mereka masuk ke dalamnya pada hari pembalasan.",
+      "english": "They will [enter to] burn therein on the Day of Recompense,"
+    },
+    {
+      "no_ayah": 16,
+      "arabic": "وَمَا هُمْ عَنْهَا بِغَائِبِينَ",
+      "transliteration": "Wama hum AAanha bigha-ibeen",
+      "indonesian": "dan mereka tidak akan keluar dari neraka itu.",
+      "english": "And never therefrom will they be absent."
+    },
+    {
+      "no_ayah": 17,
+      "arabic": "وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+      "transliteration": "Wama adraka ma yawmu addeen",
+      "indonesian": "Tahukah kamu apakah hari pembalasan itu?",
+      "english": "And what can make you know what is the Day of Recompense?"
+    },
+    {
+      "no_ayah": 18,
+      "arabic": "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+      "transliteration": "Thumma ma adraka ma yawmu addeen",
+      "indonesian": "Sekali lagi, tahukah kamu apakah hari pembalasan itu?",
+      "english": "Then, what can make you know what is the Day of Recompense?"
+    },
+    {
+      "no_ayah": 19,
+      "arabic": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئًا وَالْأَمْرُ يَوْمَئِذٍ لِلَّهِ",
+      "transliteration": "Yawma la tamliku nafsun linafsin shay-an wal-amru yawma-ithin lillah",
+      "indonesian": "Pada hari itu, seseorang tidak berdaya sedikit pun untuk menolong orang lain. Dan segala urusan pada hari itu dalam kekuasaan Allah.",
+      "english": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allah."
+    }
+  ]
+}

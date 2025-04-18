@@ -1,0 +1,43 @@
+{
+  "number": 111,
+  "name": "Al-Masad",
+  "verses": 5,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+      "transliteration": "Tabbat yada abi lahabin watabba",
+      "indonesian": "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia!",
+      "english": "May the hands of Abu Lahab be ruined, and ruined is he."
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+      "transliteration": "Ma aghna AAanhu maluhu wama kasab",
+      "indonesian": "Tidaklah berguna baginya hartanya dan apa yang dia usahakan.",
+      "english": "His wealth will not avail him, nor that which he gained."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "transliteration": "Sayasla naran thata lahab",
+      "indonesian": "Kelak dia akan masuk ke dalam api yang bergejolak (neraka).",
+      "english": "He will [enter to] burn in a Fire of [blazing] flame."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+      "transliteration": "Waimraatuhu hammalata alhatab",
+      "indonesian": "Dan (begitu pula) istrinya, pembawa kayu bakar (penyebar fitnah).",
+      "english": "And his wife [as well]—the carrier of firewood."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
+      "transliteration": "Fee jeediha hablun min masad",
+      "indonesian": "Di lehernya ada tali dari sabut yang dipintal.",
+      "english": "Around her neck is a rope of [twisted] fiber."
+    }
+  ]
+}

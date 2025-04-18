@@ -1,0 +1,43 @@
+{
+  "number": 105,
+  "name": "Al-Fil",
+  "verses": 5,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+      "transliteration": "Alam tara kaifa fa'ala rabbuka bi-ashhabil fiil",
+      "indonesian": "Tidakkah engkau perhatikan bagaimana Tuhanmu telah bertindak terhadap pasukan bergajah?",
+      "english": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+      "transliteration": "Alam yaj'al kaidahum fi tadhlil",
+      "indonesian": "Bukankah Dia telah menjadikan tipu daya mereka itu sia-sia?",
+      "english": "Did He not make their plan into misguidance?"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "transliteration": "Wa arsala 'alaihim thairan abaabil",
+      "indonesian": "dan Dia mengirimkan kepada mereka burung yang berbondong-bondong,",
+      "english": "And He sent against them birds in flocks,"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "تَرْمِيهِمْ بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "transliteration": "Tarmihim bihijaratin min sijjil",
+      "indonesian": "yang melempari mereka dengan batu dari tanah liat yang dibakar,",
+      "english": "Striking them with stones of hard clay,"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ",
+      "transliteration": "Faja'alahum ka'asfim ma'kul",
+      "indonesian": "sehingga mereka seperti daun-daun yang dimakan (ulat).",
+      "english": "And He made them like eaten straw."
+    }
+  ]
+}

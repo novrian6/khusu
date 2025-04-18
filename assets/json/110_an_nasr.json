@@ -1,0 +1,29 @@
+{
+  "number": 110,
+  "name": "An-Nasr",
+  "verses": 3,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+      "transliteration": "Itha jaa nasru Allahi walfath",
+      "indonesian": "Apabila telah datang pertolongan Allah dan kemenangan,",
+      "english": "When the victory of Allah has come and the conquest,"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+      "transliteration": "Waraayta alnnasa yadkhuloona fee deeni Allahi afwaja",
+      "indonesian": "dan engkau melihat manusia berbondong-bondong masuk agama Allah,",
+      "english": "And you see the people entering into the religion of Allah in multitudes,"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
+      "transliteration": "Fasabbih bihamdi rabbika waistaghfirhu innahu kana tawwaba",
+      "indonesian": "maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampun kepada-Nya. Sungguh, Dia Maha Penerima tobat.",
+      "english": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance."
+    }
+  ]
+}

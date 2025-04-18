@@ -1,0 +1,358 @@
+{
+  "number": 77,
+  "name": "Al-Mursalat",
+  "verses": 50,
+  "no_juzz": 29,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "وَالْمُرْسَلَاتِ عُرْفًا",
+      "transliteration": "Wal mursalaati 'urfa",
+      "indonesian": "Demi (angin) yang diutus untuk membawa kebaikan,",
+      "english": "By those [winds] sent forth in gusts"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "فَالْعَاصِفَاتِ عَصْفًا",
+      "transliteration": "Fal 'aasifaati 'asfa",
+      "indonesian": "dan (angin) yang bertiup kencang dengan kencangnya,",
+      "english": "And the winds that blow violently"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "وَالنَّاشِرَاتِ نَشْرًا",
+      "transliteration": "Wan naasyiraati nashra",
+      "indonesian": "dan (awan) yang menyebarkan (hujan) dengan seluas-luasnya,",
+      "english": "And [by] the winds that spread [clouds]"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "فَالْفَارِقَاتِ فَرْقًا",
+      "transliteration": "Fal faariqaati farqa",
+      "indonesian": "dan (malaikat-malaikat) yang membedakan (antara yang benar dan yang salah),",
+      "english": "And those [angels] who bring criterion"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "فَالْمُلْقِيَاتِ ذِكْرًا",
+      "transliteration": "Fal mulqiyaati zikra",
+      "indonesian": "dan (malaikat-malaikat) yang menyampaikan wahyu,",
+      "english": "And those [angels] who deliver a message"
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "عُذْرًا أَوْ نُذْرًا",
+      "transliteration": "'Uzran aw nuzra",
+      "indonesian": "untuk menolak alasan-alasan atau memberi peringatan,",
+      "english": "As justification or warning,"
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
+      "transliteration": "Innamaa tu'adoona lawaaqi'",
+      "indonesian": "sesungguhnya apa yang dijanjikan kepadamu pasti terjadi.",
+      "english": "Indeed, what you are promised is to occur."
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "فَإِذَا النُّجُومُ طُمِسَتْ",
+      "transliteration": "Fa izan nujumu thumisat",
+      "indonesian": "Maka apabila bintang-bintang dihapuskan,",
+      "english": "So when the stars are obliterated"
+    },
+    {
+      "no_ayah": 9,
+      "arabic": "وَإِذَا السَّمَاءُ فُرِجَتْ",
+      "transliteration": "Wa izas samaaa'u furijat",
+      "indonesian": "dan apabila langit dibelah,",
+      "english": "And when the heaven is opened"
+    },
+    {
+      "no_ayah": 10,
+      "arabic": "وَإِذَا الْجِبَالُ نُسِفَتْ",
+      "transliteration": "Wa izal jibaalu nusifat",
+      "indonesian": "dan apabila gunung-gunung dihancurkan menjadi debu,",
+      "english": "And when the mountains are blown away"
+    },
+    {
+      "no_ayah": 11,
+      "arabic": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
+      "transliteration": "Wa izar rusulu uqqitat",
+      "indonesian": "dan apabila rasul-rasul telah ditetapkan waktu (mereka).",
+      "english": "And when the messengers' time has come..."
+    },
+    {
+      "no_ayah": 12,
+      "arabic": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
+      "transliteration": "Li-ayyi yawmin ujjilat",
+      "indonesian": "Untuk hari apakah (waktu) itu ditangguhkan?",
+      "english": "For what Day was it postponed?"
+    },
+    {
+      "no_ayah": 13,
+      "arabic": "لِيَوْمِ الْفَصْلِ",
+      "transliteration": "Li-yawmi al-fasl",
+      "indonesian": "Untuk hari keputusan.",
+      "english": "For the Day of Judgement."
+    },
+    {
+      "no_ayah": 14,
+      "arabic": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
+      "transliteration": "Wama adraka ma yawmu al-fasl",
+      "indonesian": "Dan tahukah kamu apakah hari keputusan itu?",
+      "english": "And what can make you know what is the Day of Judgement?"
+    },
+    {
+      "no_ayah": 15,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 16,
+      "arabic": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
+      "transliteration": "Alam nuhliki al-awwalin",
+      "indonesian": "Bukankah Kami telah membinasakan orang-orang yang dahulu?",
+      "english": "Did We not destroy the former peoples?"
+    },
+    {
+      "no_ayah": 17,
+      "arabic": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ",
+      "transliteration": "Thumma nutbi'uhumu al-akhirin",
+      "indonesian": "Kemudian Kami akan mengikutkan (azab Kami terhadap) orang-orang yang kemudian.",
+      "english": "Then We will follow them with the later ones."
+    },
+    {
+      "no_ayah": 18,
+      "arabic": "كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
+      "transliteration": "Kadhalika naf'alu bil mujrimina",
+      "indonesian": "Demikianlah Kami berbuat terhadap orang-orang yang berdosa.",
+      "english": "Thus do We deal with the criminals."
+    },
+    {
+      "no_ayah": 19,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 20,
+      "arabic": "أَلَمْ نَخْلُقكُم مِّن مَّاءٍ مَّهِينٍ",
+      "transliteration": "Alam nakhluqkum min ma'in mahin",
+      "indonesian": "Bukankah Kami menciptakan kamu dari air yang hina?",
+      "english": "Did We not create you from a liquid disdained?"
+    },
+    {
+      "no_ayah": 21,
+      "arabic": "فَجَعَلْنَاهُ فِي قَرَارٍ مَّكِينٍ",
+      "transliteration": "Faja'alnahu fi qararin makin",
+      "indonesian": "Kemudian Kami letakkan dia dalam tempat yang kokoh (rahim),",
+      "english": "And We placed it in a firm lodging"
+    },
+    {
+      "no_ayah": 22,
+      "arabic": "إِلَىٰ قَدَرٍ مَّعْلُومٍ",
+      "transliteration": "Ila qadarim ma'lum",
+      "indonesian": "sampai waktu yang ditentukan,",
+      "english": "For a known extent."
+    },
+    {
+      "no_ayah": 23,
+      "arabic": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
+      "transliteration": "Faqadarna fani'mal qadirun",
+      "indonesian": "Lalu Kami tentukan (bentuknya), maka Kami-lah sebaik-baik yang menentukan.",
+      "english": "And We determined [it], and excellent [are We] to determine."
+    },
+    {
+      "no_ayah": 24,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 25,
+      "arabic": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
+      "transliteration": "Alam naj'ali al-ardha kifatan",
+      "indonesian": "Bukankah Kami menjadikan bumi (tempat) berkumpul,",
+      "english": "Have We not made the earth a container"
+    },
+    {
+      "no_ayah": 26,
+      "arabic": "أَحْيَاءً وَأَمْوَاتًا",
+      "transliteration": "Ahya'an wa amwatan",
+      "indonesian": "orang-orang hidup dan orang-orang mati?",
+      "english": "Of the living and the dead?"
+    },
+    {
+      "no_ayah": 27,
+      "arabic": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُم مَّاءً فُرَاتًا",
+      "transliteration": "Waja'alna fiha rawasiya shamikhatin wa asqaynakum ma'an furatan",
+      "indonesian": "Dan Kami jadikan padanya gunung-gunung yang tinggi dan Kami beri kamu minum air tawar?",
+      "english": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water."
+    },
+    {
+      "no_ayah": 28,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 29,
+      "arabic": "انطَلِقُوا إِلَىٰ مَا كُنتُم بِهِ تُكَذِّبُونَ",
+      "transliteration": "Intaliqu ila ma kuntum bihi tukadzdibun",
+      "indonesian": "Pergilah kamu mendapatkan azab yang dahulu kamu mendustakannya.",
+      "english": "[They will be told], \"Proceed to that which you used to deny."
+    },
+    {
+      "no_ayah": 30,
+      "arabic": "انطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
+      "transliteration": "Intaliqu ila zhillin dhi thalathi shu'ab",
+      "indonesian": "Pergilah kamu mendapatkan naungan yang mempunyai tiga cabang,",
+      "english": "Proceed to a shadow [of smoke] having three columns"
+    },
+    {
+      "no_ayah": 31,
+      "arabic": "لَّا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
+      "transliteration": "La zhalilin wa la yughni mina al-lahab",
+      "indonesian": "yang tidak melindungi dan tidak pula menolak nyala api neraka.",
+      "english": "But having no cool shade and availing not against the flame."
+    },
+    {
+      "no_ayah": 32,
+      "arabic": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
+      "transliteration": "Innaha tarmi bishararin kalqasr",
+      "indonesian": "Sesungguhnya neraka itu melontarkan bunga api sebesar dan setinggi istana.",
+      "english": "Indeed, it throws sparks [as huge] as a fortress,"
+    },
+    {
+      "no_ayah": 33,
+      "arabic": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ",
+      "transliteration": "Kaannahu jimalatun sufr",
+      "indonesian": "seolah-olah ia iringan unta yang kuning.",
+      "english": "As if they were yellowish [black] camels."
+    },
+    {
+      "no_ayah": 34,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 35,
+      "arabic": "هَٰذَا يَوْمُ لَا يَنطِقُونَ",
+      "transliteration": "Hatha yawmu la yantiqun",
+      "indonesian": "Ini adalah hari dimana mereka tidak dapat berbicara,",
+      "english": "This is the Day they will not speak,"
+    },
+    {
+      "no_ayah": 36,
+      "arabic": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+      "transliteration": "Wa la yu'dhanu lahum fa ya'tadhirun",
+      "indonesian": "dan tidak diizinkan kepada mereka minta uzur sehingga mereka dapat minta uzur.",
+      "english": "Nor will it be permitted for them to make an excuse."
+    },
+    {
+      "no_ayah": 37,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 38,
+      "arabic": "هَٰذَا يَوْمُ الْفَصْلِ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
+      "transliteration": "Hatha yawmu al-fasli jama'nakum wal awwalin",
+      "indonesian": "Ini adalah hari keputusan; Kami mengumpulkan kamu dan orang-orang yang terdahulu.",
+      "english": "This is the Day of Judgement; We will have assembled you and the former peoples."
+    },
+    {
+      "no_ayah": 39,
+      "arabic": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
+      "transliteration": "Fa in kana lakum kaydun fakidun",
+      "indonesian": "Jika kamu mempunyai tipu daya, maka lakukanlah tipu dayamu itu terhadap-Ku.",
+      "english": "So if you have a plan, then plan against Me."
+    },
+    {
+      "no_ayah": 40,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 41,
+      "arabic": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
+      "transliteration": "Inna al-muttaqina fi zhilalin wa 'uyun",
+      "indonesian": "Sesungguhnya orang-orang yang bertakwa berada dalam naungan (yang teduh) dan mata air-mata air,",
+      "english": "Indeed, the righteous will be among shades and springs"
+    },
+    {
+      "no_ayah": 42,
+      "arabic": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
+      "transliteration": "Wa fawakih mimma yashtahun",
+      "indonesian": "dan buah-buahan dari (macam-macam) yang mereka sukai.",
+      "english": "And fruits from whatever they desire,"
+    },
+    {
+      "no_ayah": 43,
+      "arabic": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنتُمْ تَعْمَلُونَ",
+      "transliteration": "Kulu wa ishrabu hani'an bima kuntum ta'malun",
+      "indonesian": "Makan dan minumlah dengan enak karena apa yang telah kamu kerjakan.",
+      "english": "[They will be told], \"Eat and drink in satisfaction for what you used to do.\""
+    },
+    {
+      "no_ayah": 44,
+      "arabic": "إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
+      "transliteration": "Inna kadhalika najzi al-muhsinin",
+      "indonesian": "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik.",
+      "english": "Indeed, We thus reward the doers of good."
+    },
+    {
+      "no_ayah": 45,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 46,
+      "arabic": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+      "transliteration": "Kulu wa tamatta'u qalilan innakum mujrimun",
+      "indonesian": "Makan dan bersenang-senanglah kamu (di dunia) dalam waktu yang pendek; sesungguhnya kamu adalah orang-orang yang berdosa.",
+      "english": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals."
+    },
+    {
+      "no_ayah": 47,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 48,
+      "arabic": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
+      "transliteration": "Wa idha qila lahumu irka'u la yarka'un",
+      "indonesian": "Dan apabila dikatakan kepada mereka: \"Rukuklah\", mereka tidak mau rukuk.",
+      "english": "And when it is said to them, \"Bow [in prayer],\" they do not bow."
+    },
+    {
+      "no_ayah": 49,
+      "arabic": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
+      "transliteration": "Wailun yawma-izin lil mukadzdzibin",
+      "indonesian": "Celakalah pada hari itu bagi orang-orang yang mendustakan.",
+      "english": "Woe, that Day, to the deniers."
+    },
+    {
+      "no_ayah": 50,
+      "arabic": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+      "transliteration": "Fabi-ayyi hadithin ba'dahu yu'minun",
+      "indonesian": "Maka kepada perkataan apakah sesudah (Al-Qur'an) ini mereka akan beriman?",
+      "english": "Then in what statement after it will they believe?"
+    }
+  ]
+}

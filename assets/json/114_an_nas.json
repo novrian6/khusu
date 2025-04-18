@@ -1,0 +1,50 @@
+{
+  "number": 114,
+  "name": "An-Nas",
+  "verses": 6,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "transliteration": "Qul a'udhu birabbin-nas",
+      "indonesian": "Katakanlah: Aku berlindung kepada Tuhan (yang memelihara dan menguasai) manusia.",
+      "english": "Say, 'I seek refuge in the Lord of mankind,"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "مَلِكِ النَّاسِ",
+      "transliteration": "Malikin-nas",
+      "indonesian": "Raja manusia.",
+      "english": "The Sovereign of mankind."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "إِلَٰهِ النَّاسِ",
+      "transliteration": "Ilahin-nas",
+      "indonesian": "Sembahan manusia.",
+      "english": "The God of mankind."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+      "transliteration": "Min sharil-waswasil-khannas",
+      "indonesian": "Dari kejahatan (bisikan) syaitan yang biasa bersembunyi,",
+      "english": "From the evil of the retreating whisperer—"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+      "transliteration": "Alladhi yuwaswisu fi sudurin-nas",
+      "indonesian": "yang membisikkan (kejahatan) ke dalam dada manusia,",
+      "english": "Who whispers [evil] into the breasts of mankind—"
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "transliteration": "Minal-jinnati wan-nas",
+      "indonesian": "dari (golongan) jin dan manusia.",
+      "english": "From among the jinn and mankind."
+    }
+  ]
+}

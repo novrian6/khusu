@@ -1,0 +1,50 @@
+{
+  "number": 109,
+  "name": "Al-Kafirun",
+  "verses": 6,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+      "transliteration": "Kul ya ayyuhal kafirun",
+      "indonesian": "Katakanlah (Muhammad), “Wahai orang-orang kafir!",
+      "english": "Say, \"O disbelievers,"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+      "transliteration": "La aku budu ma ta'budun",
+      "indonesian": "aku tidak akan menyembah apa yang kamu sembah,",
+      "english": "I do not worship what you worship."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "transliteration": "Wala antum abiduna ma a'bud",
+      "indonesian": "dan kamu bukan penyembah apa yang aku sembah.",
+      "english": "Nor are you worshippers of what I worship."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
+      "transliteration": "Wala ana abidun ma abadtum",
+      "indonesian": "dan aku tidak pernah menjadi penyembah apa yang kamu sembah,",
+      "english": "Nor will I be a worshipper of what you worship."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "transliteration": "Wala antum abiduna ma a'bud",
+      "indonesian": "dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah.",
+      "english": "Nor will you be worshippers of what I worship."
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+      "transliteration": "Lakum dinukum waliya din",
+      "indonesian": "Untukmu agamamu, dan untukku agamaku.”",
+      "english": "For you is your religion, and for me is my religion."
+    }
+  ]
+}

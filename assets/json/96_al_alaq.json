@@ -1,0 +1,141 @@
+{
+  "number": 96,
+  "name": "Al-Alaq",
+  "verses": 19,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+      "transliteration": "Iqra bismi rabbika allathee khalaq",
+      "indonesian": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan,",
+      "english": "Recite in the name of your Lord who created—"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ",
+      "transliteration": "Khalaqal-insana min alaq",
+      "indonesian": "Dia telah menciptakan manusia dari segumpal darah.",
+      "english": "Created man from a clinging substance."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
+      "transliteration": "Iqra warabbuka alakram",
+      "indonesian": "Bacalah, dan Tuhanmulah Yang Maha Mulia,",
+      "english": "Recite, and your Lord is the most Generous—"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "الَّذِي عَلَّمَ بِالْقَلَمِ",
+      "transliteration": "Allathee allama bilqalam",
+      "indonesian": "Yang mengajar (manusia) dengan pena.",
+      "english": "Who taught by the pen—"
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ",
+      "transliteration": "Allamal-insana ma lam ya'lam",
+      "indonesian": "Dia mengajarkan manusia apa yang tidak diketahuinya.",
+      "english": "Taught man that which he knew not."
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ",
+      "transliteration": "Kalla innal-insana layatgha",
+      "indonesian": "Sekali-kali tidak! Sungguh, manusia itu benar-benar melampaui batas,",
+      "english": "No! [But] indeed, man transgresses"
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "أَن رَّآهُ اسْتَغْنَىٰ",
+      "transliteration": "An raahu istaghna",
+      "indonesian": "karena dia melihat dirinya serba cukup.",
+      "english": "Because he sees himself self-sufficient."
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "إِنَّ إِلَىٰ رَبِّكَ الرُّجْعَىٰ",
+      "transliteration": "Inna ila rabbika arruja",
+      "indonesian": "Sungguh, hanya kepada Tuhanmulah tempat kembali(mu).",
+      "english": "Indeed, to your Lord is the return."
+    },
+    {
+      "no_ayah": 9,
+      "arabic": "أَرَأَيْتَ الَّذِي يَنْهَىٰ",
+      "transliteration": "Araayta allathee yanha",
+      "indonesian": "Bagaimana pendapatmu tentang orang yang melarang,",
+      "english": "Have you seen the one who forbids"
+    },
+    {
+      "no_ayah": 10,
+      "arabic": "عَبْدًا إِذَا صَلَّىٰ",
+      "transliteration": "Abdan itha salla",
+      "indonesian": "seorang hamba ketika dia melaksanakan salat,",
+      "english": "A servant when he prays?"
+    },
+    {
+      "no_ayah": 11,
+      "arabic": "أَرَأَيْتَ إِن كَانَ عَلَى الْهُدَىٰ",
+      "transliteration": "Araayta in kana AAala alhuda",
+      "indonesian": "Bagaimana pendapatmu jika dia (yang dilarang salat itu) berada di atas kebenaran,",
+      "english": "Have you seen if he is upon guidance"
+    },
+    {
+      "no_ayah": 12,
+      "arabic": "أَوْ أَمَرَ بِالتَّقْوَىٰ",
+      "transliteration": "Aw amara bittaqwa",
+      "indonesian": "atau dia menyuruh bertakwa (kepada Allah)?",
+      "english": "Or enjoins righteousness?"
+    },
+    {
+      "no_ayah": 13,
+      "arabic": "أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّىٰ",
+      "transliteration": "Araayta in kaththaba watawalla",
+      "indonesian": "Bagaimana pendapatmu jika dia mendustakan dan berpaling?",
+      "english": "Have you seen if he denies and turns away—"
+    },
+    {
+      "no_ayah": 14,
+      "arabic": "أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَىٰ",
+      "transliteration": "Alam yaAAlam bianna Allaha yara",
+      "indonesian": "Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?",
+      "english": "Does he not know that Allah sees?"
+    },
+    {
+      "no_ayah": 15,
+      "arabic": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ",
+      "transliteration": "Kalla la-in lam yantahi lanasfaAAan bialnnasiya",
+      "indonesian": "Sekali-kali tidak! Jika dia tidak berhenti (berbuat demikian), niscaya Kami tarik ubun-ubunnya,",
+      "english": "No! If he does not desist, We will surely drag him by the forelock—"
+    },
+    {
+      "no_ayah": 16,
+      "arabic": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ",
+      "transliteration": "Nasiyatin kathibatin khati-a",
+      "indonesian": "(yaitu) ubun-ubun orang yang mendustakan dan durhaka.",
+      "english": "A lying, sinning forelock."
+    },
+    {
+      "no_ayah": 17,
+      "arabic": "فَلْيَدْعُ نَادِيَهُ",
+      "transliteration": "FalyadAAu nadiya",
+      "indonesian": "Maka biarlah dia memanggil golongannya (untuk menolongnya),",
+      "english": "Then let him call his associates;"
+    },
+    {
+      "no_ayah": 18,
+      "arabic": "سَنَدْعُ الزَّبَانِيَةَ",
+      "transliteration": "SanadAAu alzzabaniya",
+      "indonesian": "kelak Kami akan memanggil malaikat Zabaniyah,",
+      "english": "We will call the angels of Hell."
+    },
+    {
+      "no_ayah": 19,
+      "arabic": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ",
+      "transliteration": "Kalla la tutiAAhu waosjud waiqtarib",
+      "indonesian": "Sekali-kali tidak! Janganlah kamu patuh kepadanya; dan sujudlah dan dekatkanlah (dirimu kepada Tuhan).",
+      "english": "No! Do not obey him. But prostrate and draw near [to Allah]."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 108,
+  "name": "Al-Kawthar",
+  "verses": 3,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+      "transliteration": "Inna a'thaina ka al-kautsar",
+      "indonesian": "Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak.",
+      "english": "Indeed, We have granted you, [O Muhammad], al-Kawthar."
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+      "transliteration": "Fasalli li rabbika wanhar",
+      "indonesian": "Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah.",
+      "english": "So pray to your Lord and sacrifice [to Him alone]."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+      "transliteration": "Inna syani-aka huwal-abtar",
+      "indonesian": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah).",
+      "english": "Indeed, your enemy is the one cut off."
+    }
+  ]
+}

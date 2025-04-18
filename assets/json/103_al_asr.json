@@ -1,0 +1,29 @@
+{
+  "number": 103,
+  "name": "Al-Asr",
+  "verses": 3,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "وَالْعَصْرِ",
+      "transliteration": "Wal 'ashr",
+      "indonesian": "Demi masa,",
+      "english": "By time,"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+      "transliteration": "Innal insana lafi khusr",
+      "indonesian": "Sungguh, manusia berada dalam kerugian,",
+      "english": "Indeed, mankind is in loss,"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "transliteration": "Illal ladzina amanu wa'amilus shalihat watawa saubil haqq watawa saubis shabr",
+      "indonesian": "kecuali orang-orang yang beriman dan mengerjakan kebajikan serta saling menasihati untuk kebenaran dan saling menasihati untuk kesabaran.",
+      "english": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience."
+    }
+  ]
+}

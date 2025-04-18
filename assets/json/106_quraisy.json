@@ -1,0 +1,36 @@
+{
+  "number": 106,
+  "name": "Quraisy",
+  "verses": 4,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "لِإِيلَافِ قُرَيْشٍ",
+      "transliteration": "Li ilaafi quraisy",
+      "indonesian": "Karena kebiasaan orang-orang Quraisy,",
+      "english": "For the accustomed security of the Quraysh—"
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+      "transliteration": "Ilaafihim rihlatasy syita-i wassaif",
+      "indonesian": "(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas.",
+      "english": "Their accustomed security [in] the caravan of winter and summer—"
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+      "transliteration": "Falya'budu rabba hadzal bait",
+      "indonesian": "Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka'bah),",
+      "english": "Let them worship the Lord of this House,"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
+      "transliteration": "Alladzi ath'amahum min ju'in wa amanahum min khauf",
+      "indonesian": "yang telah memberi mereka makanan untuk menghilangkan lapar dan mengamankan mereka dari ketakutan.",
+      "english": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear."
+    }
+  ]
+}

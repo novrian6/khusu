@@ -1,0 +1,36 @@
+{
+  "number": 112,
+  "name": "Al-Ikhlas",
+  "verses": 4,
+  "no_juzz": 30,
+  "ayahs": [
+    {
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "transliteration": "Qul huwallahu ahad",
+      "indonesian": "Katakanlah (Muhammad), Dialah Allah, Yang Maha Esa.",
+      "english": "Say, He is Allah, [who is] One.",
+      "no_ayah": 1
+    },
+    {
+      "arabic": "اللَّهُ الصَّمَدُ",
+      "transliteration": "Allahu assamad",
+      "indonesian": "Allah tempat meminta segala sesuatu.",
+      "english": "Allah, the Eternal Refuge.",
+      "no_ayah": 2
+    },
+    {
+      "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "transliteration": "Lam yalid walam yoolad",
+      "indonesian": "Dia tidak beranak dan tidak pula diperanakkan.",
+      "english": "He neither begets nor is born.",
+      "no_ayah": 3
+    },
+    {
+      "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "transliteration": "Walam yakun lahu kufuwan ahad",
+      "indonesian": "Dan tidak ada sesuatu yang setara dengan Dia.",
+      "english": "Nor is there to Him any equivalent.",
+      "no_ayah": 4
+    }
+  ]
+}
