@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'surah_detail_screen.dart'; // Import the new screen
+import 'surah_detail_with_quran_style_screen.dart'; // Change import to use Quran-style screen
 import 'dart:developer'; // Import logging framework
 
 class SurahScreen extends StatefulWidget {
@@ -151,7 +151,10 @@ class _SurahScreenState extends State<SurahScreen> {
                                   context,
                                   MaterialPageRoute(
                                     builder:
-                                        (context) => SurahDetailScreen(
+                                        (
+                                          context,
+                                        ) => SurahDetailWithQuranStyleScreen(
+                                          // Updated to use Quran-style screen
                                           surahName: surah['name'],
                                           ayahs: surah['ayahs'],
                                         ),

@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-class SurahDetailScreen extends StatefulWidget {
+class SurahDetailWithQuranStyleScreen extends StatefulWidget {
   final String surahName;
   final List<dynamic> ayahs;
 
-  const SurahDetailScreen({
+  const SurahDetailWithQuranStyleScreen({
     super.key,
     required this.surahName,
     required this.ayahs,
   });
 
   @override
-  _SurahDetailScreenState createState() => _SurahDetailScreenState();
+  _SurahDetailWithQuranStyleScreenState createState() =>
+      _SurahDetailWithQuranStyleScreenState();
 }
 
-class _SurahDetailScreenState extends State<SurahDetailScreen> {
+class _SurahDetailWithQuranStyleScreenState
+    extends State<SurahDetailWithQuranStyleScreen> {
   bool _isArabicTextEnlarged = false;
 
   String _convertToArabicNumber(int number) {
@@ -39,39 +41,84 @@ class _SurahDetailScreenState extends State<SurahDetailScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'Arabic Text:',
-              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 12.0),
-            GestureDetector(
-              onDoubleTap: () {
-                setState(() {
-                  _isArabicTextEnlarged = !_isArabicTextEnlarged;
-                });
-              },
-              child: RichText(
-                textAlign: TextAlign.justify,
-                textDirection: TextDirection.rtl,
-                text: TextSpan(
-                  style: TextStyle(
-                    fontSize: _isArabicTextEnlarged ? 32.0 : 24.0,
-                    fontFamily: 'Amiri',
-                    color: Colors.black87,
-                    height: 1.8,
+            // Title with decorative elements
+            Container(
+              padding: const EdgeInsets.all(16.0),
+              decoration: BoxDecoration(
+                color: Colors.deepPurple.shade50,
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.deepPurple.shade100),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    widget.surahName,
+                    style: const TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.deepPurple,
+                    ),
+                    textAlign: TextAlign.center,
                   ),
-                  children: _buildArabicTextWithQuranStyleNumbers(),
-                ),
+                  const SizedBox(height: 8),
+                  Text(
+                    "${widget.ayahs.length} Ayat",
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.deepPurple.shade400,
+                    ),
+                  ),
+                ],
               ),
             ),
+
+            const SizedBox(height: 24.0),
+
+            // Full Arabic text with Quran-style ayah numbers
+            Container(
+              padding: const EdgeInsets.all(16.0),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey.withOpacity(0.2),
+                    spreadRadius: 1,
+                    blurRadius: 5,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Column(
+                children: [
+                  GestureDetector(
+                    onDoubleTap: () {
+                      setState(() {
+                        _isArabicTextEnlarged = !_isArabicTextEnlarged;
+                      });
+                    },
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      textDirection: TextDirection.rtl,
+                      text: TextSpan(
+                        style: TextStyle(
+                          fontSize: _isArabicTextEnlarged ? 32.0 : 24.0,
+                          fontFamily: 'Amiri',
+                          color: Colors.black87,
+                          height: 1.8,
+                        ),
+                        children: _buildArabicTextWithQuranStyleNumbers(),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
             const SizedBox(height: 24.0),
             const Divider(thickness: 2.0),
-            const SizedBox(height: 16.0),
-            const Text(
-              'Ayah Details:',
-              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 12.0),
+
+            // Ayah details
             for (var ayah in widget.ayahs) ...[
               const SizedBox(height: 16.0),
               Container(
@@ -83,7 +130,7 @@ class _SurahDetailScreenState extends State<SurahDetailScreen> {
                     BoxShadow(
                       color: Colors.black12,
                       blurRadius: 4.0,
-                      offset: Offset(0, 2),
+                      offset: const Offset(0, 2),
                     ),
                   ],
                 ),
@@ -105,9 +152,9 @@ class _SurahDetailScreenState extends State<SurahDetailScreen> {
                               Text(
                                 ayah['arabic'] ?? '',
                                 style: const TextStyle(
-                                  fontSize: 20.0,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black87,
+                                  fontSize: 22.0,
+                                  fontFamily: 'Amiri',
+                                  height: 1.8,
                                 ),
                                 textDirection: TextDirection.rtl,
                                 textAlign: TextAlign.right,
@@ -116,25 +163,21 @@ class _SurahDetailScreenState extends State<SurahDetailScreen> {
                               Text(
                                 ayah['transliteration'] ?? '',
                                 style: const TextStyle(
-                                  fontSize: 18.0,
+                                  fontSize: 16.0,
                                   fontStyle: FontStyle.italic,
-                                  color: Colors.black87,
                                 ),
                               ),
                               const SizedBox(height: 8.0),
                               Text(
                                 ayah['indonesian'] ?? '',
-                                style: const TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.black87,
-                                ),
+                                style: const TextStyle(fontSize: 16.0),
                               ),
                               const SizedBox(height: 8.0),
                               Text(
                                 ayah['english'] ?? '',
-                                style: const TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.black54,
+                                style: TextStyle(
+                                  fontSize: 16.0,
+                                  color: Colors.grey.shade700,
                                 ),
                               ),
                             ],

@@ -20,62 +20,176 @@ class BacaanGerakanScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Scaffold(
-      appBar: AppBar(title: Text(title), backgroundColor: Colors.deepPurple),
+      backgroundColor: Colors.grey[100],
+      appBar: AppBar(
+        title: Text(
+          title,
+          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+        ),
+        centerTitle: true,
+        elevation: 0,
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white,
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(bottom: Radius.circular(15)),
+        ),
+      ),
       body: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              title,
-              style: const TextStyle(
-                fontSize: 24.0,
-                fontWeight: FontWeight.bold,
+            // Header section
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(15),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.05),
+                    blurRadius: 10,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: theme.textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.deepPurple,
+                    ),
+                  ),
+                  const SizedBox(height: 12.0),
+                  Text(
+                    description,
+                    style: theme.textTheme.bodyLarge?.copyWith(
+                      height: 1.5,
+                      color: Colors.black87,
+                    ),
+                  ),
+                ],
               ),
             ),
-            const SizedBox(height: 16.0),
-            Text(description, style: const TextStyle(fontSize: 18.0)),
-            const SizedBox(height: 24.0),
-            if (arabicText != null) ...[
-              const Text(
-                'Dalam Bahasa Arab:',
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+
+            const SizedBox(height: 20.0),
+
+            // Arabic text section
+            if (arabicText != null)
+              _buildContentCard(
+                context: context,
+                title: 'Dalam Bahasa Arab',
+                content: arabicText!,
+                icon: Icons.language,
+                textAlign: TextAlign.right,
+                textDirection: TextDirection.rtl,
+                textStyle: const TextStyle(
+                  fontSize: 22.0,
+                  fontFamily: 'Arial',
+                  height: 1.8,
+                ),
               ),
-              const SizedBox(height: 8.0),
-              Text(arabicText!, style: const TextStyle(fontSize: 18.0)),
-            ],
-            if (transliteration != null) ...[
-              const SizedBox(height: 16.0),
-              const Text(
-                'Bacaan dalam Ejaan Arab:',
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+
+            if (transliteration != null)
+              _buildContentCard(
+                context: context,
+                title: 'Bacaan dalam Ejaan Arab',
+                content: transliteration!,
+                icon: Icons.record_voice_over,
+                textStyle: const TextStyle(
+                  fontSize: 18.0,
+                  fontStyle: FontStyle.italic,
+                  height: 1.5,
+                ),
               ),
-              const SizedBox(height: 8.0),
-              Text(transliteration!, style: const TextStyle(fontSize: 18.0)),
-            ],
-            if (indonesianTranslation != null) ...[
-              const SizedBox(height: 16.0),
-              const Text(
-                'Arti Bahasa Indonesia:',
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+
+            if (indonesianTranslation != null)
+              _buildContentCard(
+                context: context,
+                title: 'Arti Bahasa Indonesia',
+                content: indonesianTranslation!,
+                icon: Icons.translate,
               ),
-              const SizedBox(height: 8.0),
-              Text(
-                indonesianTranslation!,
-                style: const TextStyle(fontSize: 18.0),
+
+            if (englishTranslation != null)
+              _buildContentCard(
+                context: context,
+                title: 'Arti Bahasa Inggris',
+                content: englishTranslation!,
+                icon: Icons.language,
               ),
-            ],
-            if (englishTranslation != null) ...[
-              const SizedBox(height: 16.0),
-              const Text(
-                'Arti Bahasa Inggris:',
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(height: 8.0),
-              Text(englishTranslation!, style: const TextStyle(fontSize: 18.0)),
-            ],
+
+            const SizedBox(height: 30),
           ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildContentCard({
+    required BuildContext context,
+    required String title,
+    required String content,
+    IconData icon = Icons.text_fields,
+    TextAlign textAlign = TextAlign.left,
+    TextDirection? textDirection,
+    TextStyle? textStyle,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 16.0),
+      child: Card(
+        elevation: 2,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Icon(icon, color: Colors.deepPurple),
+                  const SizedBox(width: 8),
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.deepPurple,
+                    ),
+                  ),
+                ],
+              ),
+              const Divider(height: 24),
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.symmetric(
+                  vertical: 8,
+                  horizontal: 12,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.grey[50],
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text(
+                  content,
+                  style:
+                      textStyle ??
+                      Theme.of(
+                        context,
+                      ).textTheme.bodyLarge?.copyWith(height: 1.5),
+                  textAlign: textAlign,
+                  textDirection: textDirection,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:khusu/bacaan_gerakan_screen.dart';
+import 'package:khusu/bacaan_berdiri_screen.dart'; // Import BacaanBerdiriScreen
 import 'models/prayer.dart';
 
 class BacaanScreen extends StatefulWidget {
@@ -96,23 +98,37 @@ class _BacaanScreenState extends State<BacaanScreen> {
                               child: InkWell(
                                 borderRadius: BorderRadius.circular(12),
                                 onTap: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder:
-                                          (context) => BacaanGerakanScreen(
-                                            title: prayer.title,
-                                            description: prayer.description,
-                                            arabicText: prayer.arabicText,
-                                            transliteration:
-                                                prayer.transliteration,
-                                            indonesianTranslation:
-                                                prayer.indonesianTranslation,
-                                            englishTranslation:
-                                                prayer.englishTranslation,
-                                          ),
-                                    ),
-                                  );
+                                  // Check if the prayer title is "Berdiri Tegak"
+                                  if (prayer.title == "Berdiri Tegak") {
+                                    // Navigate to BacaanBerdiriScreen
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder:
+                                            (context) =>
+                                                const BacaanBerdiriScreen(),
+                                      ),
+                                    );
+                                  } else {
+                                    // For other prayers, navigate to BacaanGerakanScreen as before
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder:
+                                            (context) => BacaanGerakanScreen(
+                                              title: prayer.title,
+                                              description: prayer.description,
+                                              arabicText: prayer.arabicText,
+                                              transliteration:
+                                                  prayer.transliteration,
+                                              indonesianTranslation:
+                                                  prayer.indonesianTranslation,
+                                              englishTranslation:
+                                                  prayer.englishTranslation,
+                                            ),
+                                      ),
+                                    );
+                                  }
                                 },
                                 child: Padding(
                                   padding: const EdgeInsets.all(16.0),
@@ -179,7 +195,7 @@ class _BacaanScreenState extends State<BacaanScreen> {
   }
 }
 
-class BacaanGerakanScreen extends StatefulWidget {
+/*class BacaanGerakanScreen extends StatefulWidget {
   final String title;
   final String description;
   final String arabicText;
@@ -274,3 +290,4 @@ class _BacaanGerakanScreenState extends State<BacaanGerakanScreen> {
     );
   }
 }
+*/

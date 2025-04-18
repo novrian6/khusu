@@ -1,14 +1,28 @@
 import 'package:flutter/material.dart';
-import 'app_drawer.dart'; // Import the AppDrawer
-import 'bacaan_screen.dart'; // Import the BacaanScreen
-import 'tips_khusu_screen.dart'; // Import the TipsKhusuScreen
-import 'home_screen.dart'; // Import the HomeScreen
-import 'gerakan_screen.dart'; // Import the GerakanScreen
-import 'surah_screen.dart'; // Import the SurahScreen
-import 'dzikir_screen.dart'; // Import the DzikirScreen
-import 'doa_screen.dart'; // Import the new DoaScreen
+import 'package:flutter/services.dart';
+import 'app_drawer.dart';
+import 'bacaan_screen.dart';
+import 'tips_khusu_screen.dart';
+import 'home_screen.dart';
+import 'gerakan_screen.dart';
+import 'surah_screen.dart';
+import 'dzikir_screen.dart';
+import 'doa_screen.dart';
+// Removing import: import 'gps_kiblat_screen.dart'
 
-void main() {
+// Ensure plugins are initialized properly before app starts
+void main() async {
+  // Ensure Flutter is initialized
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Set preferred orientations (optional)
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
+
+  // Remove pre-check permissions code since we're removing GPS functionality
+
   runApp(const MyApp());
 }
 
@@ -36,83 +50,157 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage>
+    with SingleTickerProviderStateMixin {
   int _selectedIndex = 0;
+  TabController? _mainTabController;
 
-  static const List<Widget> _widgetOptions = <Widget>[
-    HomeScreen(), // Home tab content
-    TipsKhusuScreen(), // Tips Khusu tab content
-    GerakanScreen(), // Gerakan tab content (moved up)
-    BacaanScreen(), // Bacaan tab content (moved down)
-    SurahScreen(), // Surah tab content
-    DzikirScreen(), // Dzikir tab content
-    DoaScreen(), // Doa tab content
+  // Define our main categories
+  final List<TabCategory> _categories = [
+    TabCategory(title: 'Home', icon: Icons.home, screens: [HomeScreen()]),
+    TabCategory(
+      title: 'Sholat',
+      icon: Icons.mosque,
+      screens: [TipsKhusuScreen(), GerakanScreen(), BacaanScreen()],
+      tabLabels: ['Tips Khusu', 'Gerakan', 'Bacaan'],
+      tabIcons: [Icons.book, Icons.accessibility_new, Icons.directions_run],
+    ),
+    TabCategory(
+      title: 'Lainnya',
+      icon: Icons.menu_book,
+      screens: [SurahScreen(), DzikirScreen(), DoaScreen()],
+      tabLabels: ['Surah', 'Dzikir', 'Doa'],
+      tabIcons: [Icons.menu_book, Icons.self_improvement, Icons.favorite],
+    ),
   ];
 
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
+  @override
+  void initState() {
+    super.initState();
+    // Initialize the controller after super.initState()
+    _mainTabController = TabController(length: _categories.length, vsync: this);
+    _mainTabController!.addListener(_handleTabSelection);
+  }
+
+  @override
+  void dispose() {
+    // Safely remove listener and dispose
+    _mainTabController?.removeListener(_handleTabSelection);
+    _mainTabController?.dispose();
+    super.dispose();
+  }
+
+  void _handleTabSelection() {
+    if (_mainTabController!.indexIsChanging) {
+      setState(() {
+        _selectedIndex = _mainTabController!.index;
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
+    // Ensure controller is initialized before building UI
+    if (_mainTabController == null) {
+      _mainTabController = TabController(
+        length: _categories.length,
+        vsync: this,
+      );
+      _mainTabController!.addListener(_handleTabSelection);
+    }
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      drawer: const AppDrawer(), // Use the refactored AppDrawer
-      body: Center(child: _widgetOptions.elementAt(_selectedIndex)),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed, // Ensure all labels are visible
-        backgroundColor: Colors.white, // Set a clean background color
-        elevation: 10.0, // Add elevation for a modern look
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home', // Home tab
+      drawer: const AppDrawer(),
+      body: Column(
+        children: [
+          // Main category selector at the top
+          TabBar(
+            controller: _mainTabController!,
+            tabs:
+                _categories
+                    .map(
+                      (category) =>
+                          Tab(icon: Icon(category.icon), text: category.title),
+                    )
+                    .toList(),
+            labelColor: Colors.deepPurple,
+            unselectedLabelColor: Colors.grey,
+            indicatorColor: Colors.deepPurple,
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.book),
-            label: 'Tips Khusu', // Tips Khusu tab
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.accessibility_new),
-            label: 'Gerakan Sholat', // Gerakan tab (moved up)
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.directions_run),
-            label: 'Bacaan Sholat', // Bacaan tab (moved down)
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.menu_book),
-            label: 'Surah', // Surah tab
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.self_improvement),
-            label: 'Dzikir', // Dzikir tab
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Doa', // Doa tab
+
+          // Content area with bottom sub-tabs
+          Expanded(
+            child: TabBarView(
+              controller: _mainTabController!,
+              children:
+                  _categories.map((category) {
+                    // If this category has subtabs
+                    if (category.screens.length > 1) {
+                      return DefaultTabController(
+                        length: category.screens.length,
+                        child: Stack(
+                          children: [
+                            // Content area
+                            Positioned.fill(
+                              bottom: 50, // Space for the bottom tabs
+                              child: TabBarView(children: category.screens),
+                            ),
+
+                            // Sub-tabs at the bottom
+                            Positioned(
+                              left: 0,
+                              right: 0,
+                              bottom: 0,
+                              height: 50,
+                              child: Container(
+                                color: Colors.white,
+                                child: TabBar(
+                                  isScrollable: true,
+                                  tabs: List.generate(
+                                    category.tabLabels.length,
+                                    (index) => Tab(
+                                      icon: Icon(category.tabIcons[index]),
+                                      text: category.tabLabels[index],
+                                    ),
+                                  ),
+                                  labelColor: Colors.deepPurple,
+                                  unselectedLabelColor: Colors.grey,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      );
+                    } else {
+                      // Single screen category (like Home)
+                      return category.screens[0];
+                    }
+                  }).toList(),
+            ),
           ),
         ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: Colors.deepPurple, // Highlight selected tab
-        unselectedItemColor: Colors.grey, // Dim unselected tabs
-        selectedLabelStyle: const TextStyle(
-          fontWeight: FontWeight.bold,
-        ), // Bold selected labels
-        unselectedLabelStyle: const TextStyle(
-          fontWeight: FontWeight.normal,
-        ), // Normal unselected labels
-        showUnselectedLabels: true, // Ensure unselected labels are visible
-        onTap: _onItemTapped,
-        iconSize: 28.0, // Adjust icon size for better visibility
-        selectedFontSize: 14.0, // Adjust font size for selected labels
-        unselectedFontSize: 12.0, // Adjust font size for unselected labels
       ),
     );
   }
+}
+
+// Helper class to organize tabs
+class TabCategory {
+  final String title;
+  final IconData icon;
+  final List<Widget> screens;
+  final List<String> tabLabels;
+  final List<IconData> tabIcons;
+
+  TabCategory({
+    required this.title,
+    required this.icon,
+    required this.screens,
+    this.tabLabels = const [],
+    this.tabIcons = const [],
+  });
 }

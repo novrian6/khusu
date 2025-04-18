@@ -1,0 +1,40 @@
+group 'com.hemanthraj.fluttercompass'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    // This fixes the namespace issue
+    namespace 'com.hemanthraj.fluttercompass'
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+}

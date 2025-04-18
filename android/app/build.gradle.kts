@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.novai.khusu"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = flutter.ndkVersion  // Reverting to standard Flutter NDK version
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
