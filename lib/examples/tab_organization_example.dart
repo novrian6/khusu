@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/organized_tab_view.dart';
 
 class TabOrganizationExample extends StatelessWidget {
-  const TabOrganizationExample({Key? key}) : super(key: key);
+  const TabOrganizationExample({super.key});
 
   @override
   Widget build(BuildContext context) {

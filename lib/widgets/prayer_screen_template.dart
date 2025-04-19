@@ -13,7 +13,7 @@ class PrayerScreenTemplate extends StatelessWidget {
   final Duration autoPlayInterval;
 
   const PrayerScreenTemplate({
-    Key? key,
+    super.key,
     required this.title,
     this.imagePath,
     this.imagePaths,
@@ -26,8 +26,7 @@ class PrayerScreenTemplate extends StatelessWidget {
          (imagePath != null && !useCarousel) ||
              (imagePaths != null && useCarousel),
          'Either provide imagePath for single image or imagePaths for carousel',
-       ),
-       super(key: key);
+       );
 
   @override
   Widget build(BuildContext context) {

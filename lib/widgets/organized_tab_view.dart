@@ -22,11 +22,11 @@ class OrganizedTabView extends StatefulWidget {
   final Color backgroundColor;
 
   const OrganizedTabView({
-    Key? key,
+    super.key,
     required this.tabGroups,
     this.primaryColor = Colors.deepPurple,
     this.backgroundColor = Colors.white,
-  }) : super(key: key);
+  });
 
   @override
   State<OrganizedTabView> createState() => _OrganizedTabViewState();

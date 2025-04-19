@@ -1,0 +1,589 @@
+{
+  "number": 36,
+  "name": "Yasin",
+  "verses": 83,
+  "no_juzz": 22,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "يس",
+      "transliteration": "Ya-Sin",
+      "indonesian": "Yasin.",
+      "english": "Ya-Sin."
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "وَالْقُرْآنِ الْحَكِيمِ",
+      "transliteration": "Wal-Qur'anil-Hakim",
+      "indonesian": "Demi Al-Qur'an yang penuh hikmah,",
+      "english": "By the wise Qur'an."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "إِنَّكَ لَمِنَ الْمُرْسَلِينَ",
+      "transliteration": "Innaka laminal-mursalin",
+      "indonesian": "sesungguhnya engkau (Muhammad) adalah salah seorang dari rasul-rasul,",
+      "english": "Indeed you, [O Muhammad], are from among the messengers,"
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "عَلَىٰ صِرَاطٍ مُّسْتَقِيمٍ",
+      "transliteration": "Ala siratin-mustaqim",
+      "indonesian": "yang berada di atas jalan yang lurus,",
+      "english": "On a straight path."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "تَنزِيلَ الْعَزِيزِ الرَّحِيمِ",
+      "transliteration": "Tanzilal-Azizir-Rahim",
+      "indonesian": "(sebagai wahyu) yang diturunkan oleh (Allah) Yang Maha Perkasa, Maha Penyayang,",
+      "english": "[This is] a revelation of the Exalted in Might, the Merciful,"
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "لِتُنذِرَ قَوْمًا مَّا أُنذِرَ آبَاؤُهُمْ فَهُمْ غَافِلُونَ",
+      "transliteration": "Litunzira qawman ma unzira aba'uhum fahum ghafilun",
+      "indonesian": "agar engkau memberi peringatan kepada suatu kaum yang nenek moyangnya belum pernah diberi peringatan, karena itu mereka lalai.",
+      "english": "That you may warn a people whose forefathers were not warned, so they are unaware."
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "لَقَدْ حَقَّ الْقَوْلُ عَلَىٰ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ",
+      "transliteration": "Laqad haqqal-qawlu 'ala aktharihim fahum la yu'minun",
+      "indonesian": "Sungguh, pasti berlaku perkataan (hukuman) terhadap kebanyakan mereka, karena mereka tidak beriman.",
+      "english": "Already the word has come into effect upon most of them, so they do not believe."
+    },
+    {
+      "no_ayah": 8,
+      "arabic": "إِنَّا جَعَلْنَا فِي أَعْنَاقِهِمْ أَغْلَالًا فَهِيَ إِلَى الْأَذْقَانِ فَهُمْ مُقْمَحُونَ",
+      "transliteration": "Inna ja'alna fi a'naqihim aghlalan fahiya ilal-adhqani fahum muqmahun",
+      "indonesian": "Sesungguhnya Kami telah memasang belenggu dileher mereka, lalu tangan mereka (diangkat) ke dagu, karena itu mereka tertengadah.",
+      "english": "Indeed, We have put on their necks shackles extending to the chins, so they are with heads [kept] aloft."
+    },
+    {
+      "no_ayah": 9,
+      "arabic": "وَجَعَلْنَا مِنْ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَاهُمْ فَهُمْ لَا يُبْصِرُونَ",
+      "transliteration": "Wa ja'alna mim bayni aydihim saddan wa min khalfihim saddan fa'aghshaynahum fahum la yubsirun",
+      "indonesian": "Dan Kami jadikan di hadapan mereka sekat (dinding) dan di belakang mereka juga sekat, dan Kami tutup (mata) mereka sehingga mereka tidak dapat melihat.",
+      "english": "And We have put before them a barrier and behind them a barrier and covered them, so they do not see."
+    },
+    {
+      "no_ayah": 10,
+      "arabic": "وَسَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+      "transliteration": "Wa sawa'un 'alayhim a'anzartahum am lam tunzirhum la yu'minun",
+      "indonesian": "Sama saja bagi mereka, apakah engkau memberi peringatan kepada mereka atau engkau tidak memberi peringatan kepada mereka, mereka tidak akan beriman juga.",
+      "english": "And it is all the same for them whether you warn them or do not warn them - they will not believe."
+    },
+    {
+      "no_ayah": 11,
+      "arabic": "إِنَّمَا تُنذِرُ مَنِ اتَّبَعَ الذِّكْرَ وَخَشِيَ الرَّحْمَٰنَ بِالْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
+      "transliteration": "Innama tunziru manit-taba'az-zikra wa khashiyar-Rahmana bil-ghayb, fabash-shirhu bimaghfiratin wa ajrin karim",
+      "indonesian": "Sesungguhnya engkau hanya memberi peringatan kepada orang-orang yang mau mengikuti peringatan dan yang takut kepada Tuhan Yang Maha Pengasih, walaupun mereka tidak melihat-Nya. Maka berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.",
+      "english": "You can only warn one who follows the message and fears the Most Merciful unseen. So give him good tidings of forgiveness and noble reward."
+    },
+    {
+      "no_ayah": 12,
+      "arabic": "إِنَّا نَحْنُ نُحْيِي الْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ ۚ وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُّبِينٍ",
+      "transliteration": "Inna nahnu nuhyil-mawta wa naktubu ma qaddamu wa atharahum, wa kulla shay'in ahsaynahu fi imamim mubin",
+      "indonesian": "Sungguh, Kamilah yang menghidupkan orang-orang yang mati, dan Kamilah yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Dan segala sesuatu Kami kumpulkan dalam Kitab yang jelas (Lauh Mahfuzh).",
+      "english": "Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind, and all things We have enumerated in a clear register."
+    },
+    {
+      "no_ayah": 13,
+      "arabic": "وَاضْرِبْ لَهُم مَّثَلًا أَصْحَابَ الْقَرْيَةِ إِذْ جَاءَهَا الْمُرْسَلُونَ",
+      "transliteration": "Wadrib lahum mathalan ashabal-qaryati idh ja'ahal-mursalun",
+      "indonesian": "Dan buatlah suatu perumpamaan bagi mereka, yaitu penduduk suatu negeri, ketika utusan-utusan datang kepada mereka;",
+      "english": "And present to them an example: the people of the city, when the messengers came to it -"
+    },
+    {
+      "no_ayah": 14,
+      "arabic": "إِذْ أَرْسَلْنَا إِلَيْهِمُ اثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوا إِنَّا إِلَيْكُم مُّرْسَلُونَ",
+      "transliteration": "Idh arsalna ilayhimus-nayni fakaththabuhuma fa'azzazna bithalithin faqalu inna ilaykum mursalun",
+      "indonesian": "ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya; kemudian Kami kuatkan dengan (utusan) yang ketiga, maka ketiga (utusan itu) berkata, \"Sungguh, kami adalah orang-orang yang diutus kepadamu.\"",
+      "english": "When We sent to them two but they denied them, so We strengthened them with a third, and they said, \"Indeed, we are messengers to you.\""
+    },
+    {
+      "no_ayah": 15,
+      "arabic": "قَالُوا مَا أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَا أَنزَلَ الرَّحْمَٰنُ مِن شَيْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ",
+      "transliteration": "Qalu ma antum illa basharum mithluna wa ma anzalar-Rahmanu min shay'in in antum illa takdhibun",
+      "indonesian": "Mereka menjawab, \"Kamu tidak lain hanyalah manusia seperti kami dan Allah Yang Maha Pengasih tidak menurunkan sesuatu apa pun; kamu tidak lain hanyalah pendusta belaka.\"",
+      "english": "They said, \"You are not but human beings like us, and the Most Merciful has not revealed a thing. You are only telling lies.\""
+    },
+    {
+      "no_ayah": 16,
+      "arabic": "قَالُوا رَبُّنَا يَعْلَمُ إِنَّا إِلَيْكُمْ لَمُرْسَلُونَ",
+      "transliteration": "Qalu Rabbuna ya'lamu inna ilaykum lamursalun",
+      "indonesian": "Mereka berkata, \"Tuhan kami mengetahui sesungguhnya kami adalah utusan-utusan(-Nya) kepada kamu.",
+      "english": "They said, \"Our Lord knows that we are messengers to you,"
+    },
+    {
+      "no_ayah": 17,
+      "arabic": "وَمَا عَلَيْنَا إِلَّا الْبَلَاغُ الْمُبِينُ",
+      "transliteration": "Wa ma 'alayna illal-balaghul-mubin",
+      "indonesian": "Dan kewajiban kami hanyalah menyampaikan (perintah Allah) dengan jelas.\"",
+      "english": "And we are not responsible except for clear notification.\""
+    },
+    {
+      "no_ayah": 18,
+      "arabic": "قَالُوا إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ",
+      "transliteration": "Qalu inna tatayyarna bikum la'il-lam tantahu lanarjumannakum wa layamassannakum minna 'adhabun alim",
+      "indonesian": "Mereka menjawab, \"Sesungguhnya kami bernasib malang karena kamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami rajam kamu dan kamu pasti akan mendapat siksa yang pedih dari kami.\"",
+      "english": "They said, \"Indeed, we consider you a bad omen. If you do not desist, we will surely stone you, and there will surely touch you, from us, a painful punishment.\""
+    },
+    {
+      "no_ayah": 19,
+      "arabic": "قَالُوا طَائِرُكُم مَّعَكُمْ ۚ أَئِن ذُكِّرْتُم ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
+      "transliteration": "Qalu ta'irukum ma'akum a'in dhukkirtum bal antum qawmum musrifun",
+      "indonesian": "Mereka (utusan-utusan) berkata, \"Kemalangan kamu itu adalah karena kamu sendiri. Apakah jika kamu diberi peringatan (kamu bernasib malang)? Sebenarnya kamu adalah kaum yang melampaui batas.\"",
+      "english": "They said, \"Your omen is with yourselves. Is it because you were reminded? Rather, you are a transgressing people.\""
+    },
+    {
+      "no_ayah": 20,
+      "arabic": "وَجَاءَ مِنْ أَقْصَى الْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَا قَوْمِ اتَّبِعُوا الْمُرْسَلِينَ",
+      "transliteration": "Wa ja'a min aqsal-madinati rajulun yas'a qala ya qawmit-tabi'ul-mursalin",
+      "indonesian": "Dan datanglah dari ujung kota, seorang laki-laki dengan bergegas dia berkata, \"Wahai kaumku! Ikutilah utusan-utusan itu.",
+      "english": "And there came from the farthest end of the city a man, running. He said, \"O my people, follow the messengers."
+    },
+    {
+      "no_ayah": 21,
+      "arabic": "اتَّبِعُوا مَن لَّا يَسْأَلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ",
+      "transliteration": "Ittabi'u mal-la yas'alukum ajraw-wahum muhtadun",
+      "indonesian": "Ikutilah orang yang tidak meminta imbalan kepadamu; dan mereka adalah orang-orang yang mendapat petunjuk.\"",
+      "english": "Follow those who do not ask of you [any] payment, and they are [rightly] guided."
+    },
+    {
+      "no_ayah": 22,
+      "arabic": "وَمَا لِيَ لَا أَعْبُدُ الَّذِي فَطَرَنِي وَإِلَيْهِ تُرْجَعُونَ",
+      "transliteration": "Wa ma liya la a'budulladhi fatarani wa ilayhi turja'un",
+      "indonesian": "\"Dan mengapa aku tidak menyembah (Tuhan) yang telah menciptakanku dan yang hanya kepada-Nya kamu (semua) akan dikembalikan?\"",
+      "english": "And why should I not worship He who created me and to whom you will be returned?"
+    },
+    {
+      "no_ayah": 23,
+      "arabic": "أَأَتَّخِذُ مِن دُونِهِ آلِهَةً إِن يُرِدْنِ الرَّحْمَٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّي شَفَاعَتُهُمْ شَيْئًا وَلَا يُنقِذُونِ",
+      "transliteration": "A'attakhidhu min dunihi alihatan in yuridnir-Rahmanu bidhurril-la tughni 'anni shafa'atuhum shay'aw-wa la yunqidhun",
+      "indonesian": "Mengapa aku akan menyembah tuhan-tuhan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.",
+      "english": "Should I take other than Him [false] deities [while], if the Most Merciful intends for me some adversity, their intercession will not avail me at all, nor can they save me?"
+    },
+    {
+      "no_ayah": 24,
+      "arabic": "إِنِّي إِذًا لَّفِي ضَلَالٍ مُّبِينٍ",
+      "transliteration": "Inni idhal-lafi dhalalim-mubin",
+      "indonesian": "Sesungguhnya aku (jika berbuat demikian) benar-benar dalam kesesatan yang nyata.",
+      "english": "Indeed, I would then be in manifest error."
+    },
+    {
+      "no_ayah": 25,
+      "arabic": "إِنِّي آمَنتُ بِرَبِّكُمْ فَاسْمَعُونِ",
+      "transliteration": "Inni amantu bi-rabbikum fasma'un",
+      "indonesian": "Sesungguhnya aku telah beriman kepada Tuhanmu, maka dengarkanlah (pengakuan keimanan)-ku.",
+      "english": "Indeed, I have believed in your Lord, so listen to me."
+    },
+    {
+      "no_ayah": 26,
+      "arabic": "قِيلَ ادْخُلِ الْجَنَّةَ ۖ قَالَ يَا لَيْتَ قَوْمِي يَعْلَمُونَ",
+      "transliteration": "Qilad-khulil-jannah, qala ya layta qawmi ya'lamun",
+      "indonesian": "Dikatakan (kepadanya): \"Masuklah ke surga.\" Dia berkata: \"Alangkah baiknya sekiranya kaumku mengetahui,",
+      "english": "It was said, \"Enter Paradise.\" He said, \"I wish my people could know"
+    },
+    {
+      "no_ayah": 27,
+      "arabic": "بِمَا غَفَرَ لِي رَبِّي وَجَعَلَنِي مِنَ الْمُكْرَمِينَ",
+      "transliteration": "Bima ghafara li Rabbi wa ja'alani minal-mukramin",
+      "indonesian": "apa yang menyebabkan Tuhanku mengampuni aku dan menjadikan aku termasuk orang-orang yang dimuliakan.\"",
+      "english": "Of how my Lord has forgiven me and placed me among the honored.\""
+    },
+    {
+      "no_ayah": 28,
+      "arabic": "۞ وَمَا أَنزَلْنَا عَلَىٰ قَوْمِهِ مِن بَعْدِهِ مِن جُندٍ مِّنَ السَّمَاءِ وَمَا كُنَّا مُنزِلِينَ",
+      "transliteration": "Wa ma anzalna 'ala qawmihi mim ba'dihi min jundim minas-sama'i wa ma kunna munzilin",
+      "indonesian": "Dan Kami tidak menurunkan kepada kaumnya setelah dia (meninggal) suatu pasukan dari langit dan Kami tidak perlu menurunkannya.",
+      "english": "And We did not send down upon his people after him any soldiers from the heaven, nor would We have done so."
+    },
+    {
+      "no_ayah": 29,
+      "arabic": "إِن كَانَتْ إِلَّا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ خَامِدُونَ",
+      "transliteration": "In kanat illa sayhataw-wahidatan fa'idha hum khamidun",
+      "indonesian": "Tidak ada siksaan atas mereka melainkan satu teriakan saja; maka seketika itu mereka mati.",
+      "english": "It was not but one shout, and immediately they were extinguished."
+    },
+    {
+      "no_ayah": 30,
+      "arabic": "يَا حَسْرَةً عَلَى الْعِبَادِ ۚ مَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا بِهِ يَسْتَهْزِئُونَ",
+      "transliteration": "Ya hasratan 'alal-'ibad, ma ya'tihim mir-rasulin illa kanu bihi yastahzi'un",
+      "indonesian": "Alangkah besar penyesalan terhadap hamba-hamba itu, setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.",
+      "english": "How regretful for the servants. There did not come to them any messenger except that they used to ridicule him."
+    },
+    {
+      "no_ayah": 31,
+      "arabic": "أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ الْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ",
+      "transliteration": "Alam yaraw kam ahlakna qablahum minal-quruni annahum ilayhim la yarji'un",
+      "indonesian": "Tidakkah mereka mengetahui berapa banyak umat-umat sebelum mereka yang telah Kami binasakan. Orang-orang yang telah Kami binasakan itu tidak ada yang kembali kepada mereka.",
+      "english": "Have they not considered how many generations We destroyed before them - that they to them will not return?"
+    },
+    {
+      "no_ayah": 32,
+      "arabic": "وَإِن كُلٌّ لَّمَّا جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
+      "transliteration": "Wa in kullul-lamma jami'ul-ladayna muhdarun",
+      "indonesian": "Dan setiap (umat), semuanya akan dihadapkan kepada Kami.",
+      "english": "And all of them will be brought before Us."
+    },
+    {
+      "no_ayah": 33,
+      "arabic": "وَآيَةٌ لَّهُمُ الْأَرْضُ الْمَيْتَةُ أَحْيَيْنَاهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ",
+      "transliteration": "Wa ayatul-lahumul-ardul-maytatu ahyaynaha wa akhrajna minha habban faminhu ya'kulun",
+      "indonesian": "Dan suatu tanda (kekuasaan Allah) bagi mereka adalah bumi yang mati (tandus). Kami menghidupkannya dan Kami keluarkan darinya biji-bijian, maka dari (biji-bijian) itu mereka makan.",
+      "english": "And a sign for them is the dead earth. We have brought it to life and brought forth from it grain, and from it they eat."
+    },
+    {
+      "no_ayah": 34,
+      "arabic": "وَجَعَلْنَا فِيهَا جَنَّاتٍ مِّن نَّخِيلٍ وَأَعْنَابٍ وَفَجَّرْنَا فِيهَا مِنَ الْعُيُونِ",
+      "transliteration": "Wa ja'alna fiha jannatim min nakhiliw-wa a'nabiw-wa fajjarna fiha minal-'uyun",
+      "indonesian": "Dan Kami jadikan padanya di bumi itu kebun-kebun kurma dan anggur dan Kami pancarkan padanya beberapa mata air,",
+      "english": "And We placed therein gardens of palm trees and grapevines and caused to burst forth therefrom some springs."
+    },
+    {
+      "no_ayah": 35,
+      "arabic": "لِيَأْكُلُوا مِن ثَمَرِهِ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ",
+      "transliteration": "Liya'kulu min thamarihi wa ma 'amilat-hu aydihim, afala yashkurun",
+      "indonesian": "agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Maka mengapa mereka tidak bersyukur?",
+      "english": "That they may eat of His fruit. And their hands have not produced it, so will they not be grateful?"
+    },
+    {
+      "no_ayah": 36,
+      "arabic": "سُبْحَانَ الَّذِي خَلَقَ الْأَزْوَاجَ كُلَّهَا مِمَّا تُنبِتُ الْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+      "transliteration": "Subhanal-ladhi khalaqal-azwaja kullaha mimma tumbitul-ardhu wa min anfusihim wa mimma la ya'lamun",
+      "indonesian": "Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri, maupun dari apa yang tidak mereka ketahui.",
+      "english": "Exalted is He who created all pairs - from what the earth grows and from themselves and from that which they do not know."
+    },
+    {
+      "no_ayah": 37,
+      "arabic": "وَآيَةٌ لَّهُمُ اللَّيْلُ نَسْلَخُ مِنْهُ النَّهَارَ فَإِذَا هُم مُّظْلِمُونَ",
+      "transliteration": "Wa ayatul-lahumul-laylu naslakhu minhun-nahara fa'idha hum mudhlimun",
+      "indonesian": "Dan suatu tanda (kebesaran Allah) bagi mereka adalah malam; Kami tanggalkan siang dari (malam) itu, maka seketika itu mereka (berada dalam) kegelapan,",
+      "english": "And a sign for them is the night. We remove from it [the light of] day, so they are [left] in darkness."
+    },
+    {
+      "no_ayah": 38,
+      "arabic": "وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَّهَا ۚ ذَٰلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ",
+      "transliteration": "Wash-shamsu tajri limustaqarril-laha, dhalika taqdiral-'Azizil-'Alim",
+      "indonesian": "dan matahari berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Maha Perkasa, Maha Mengetahui.",
+      "english": "And the sun runs [on course] toward its stopping point. That is the determination of the Exalted in Might, the Knowing."
+    },
+    {
+      "no_ayah": 39,
+      "arabic": "وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ حَتَّىٰ عَادَ كَالْعُرْجُونِ الْقَدِيمِ",
+      "transliteration": "Wal-qamara qaddarnahu manazila hatta 'ada kal-'urjunil-qadim",
+      "indonesian": "Dan telah Kami tetapkan tempat peredaran bagi bulan, sehingga (setelah ia sampai ke tempat peredaran yang terakhir) kembalilah ia seperti bentuk tandan yang tua.",
+      "english": "And the moon - We have determined for it phases, until it returns [appearing] like the old date stalk."
+    },
+    {
+      "no_ayah": 40,
+      "arabic": "لَا الشَّمْسُ يَنبَغِي لَهَا أَن تُدْرِكَ الْقَمَرَ وَلَا اللَّيْلُ سَابِقُ النَّهَارِ ۚ وَكُلٌّ فِي فَلَكٍ يَسْبَحُونَ",
+      "transliteration": "Lash-shamsu yambaghi laha an tudrikal-qamara wa lal-laylu sabiqun-nahar, wa kullun fi falakin yasbahun",
+      "indonesian": "Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.",
+      "english": "It is not allowable for the sun to reach the moon, nor does the night overtake the day, but each, in an orbit, is swimming."
+    },
+    {
+      "no_ayah": 41,
+      "arabic": "وَآيَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِي الْفُلْكِ الْمَشْحُونِ",
+      "transliteration": "Wa ayatul-lahum anna hamalna dhurriyyatahum fil-fulkil-mashhun",
+      "indonesian": "Dan suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami angkut keturunan mereka dalam kapal yang penuh muatan,",
+      "english": "And a sign for them is that We carried their forefathers in a laden ship."
+    },
+    {
+      "no_ayah": 42,
+      "arabic": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِ مَا يَرْكَبُونَ",
+      "transliteration": "Wa khalaqna lahum mim mithlihi ma yarkabun",
+      "indonesian": "dan Kami ciptakan untuk mereka (angkutan lain) seperti apa yang mereka naiki.",
+      "english": "And We created for them the likes of it in which they ride."
+    },
+    {
+      "no_ayah": 43,
+      "arabic": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+      "transliteration": "Wa in nasha' nughriqhum fala sarikha lahum wa la hum yunqadhun",
+      "indonesian": "Dan jika Kami menghendaki, Kami tenggelamkan mereka, sehingga tidak ada penolong bagi mereka dan tidak pula mereka diselamatkan,",
+      "english": "And if We should will, We could drown them; then no one responding to a cry would there be for them, nor would they be saved."
+    },
+    {
+      "no_ayah": 44,
+      "arabic": "إِلَّا رَحْمَةً مِّنَّا وَمَتَاعًا إِلَىٰ حِينٍ",
+      "transliteration": "Illa rahmatam-minna wa mata'an ila hin",
+      "indonesian": "melainkan (Kami selamatkan mereka) karena rahmat dari Kami dan untuk kesenangan hidup sampai waktu tertentu.",
+      "english": "Except [We grant them] mercy from Us and enjoyment for a time."
+    },
+    {
+      "no_ayah": 45,
+      "arabic": "وَإِذَا قِيلَ لَهُمُ اتَّقُوا مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ",
+      "transliteration": "Wa idha qila lahumut-taqu ma bayna aydikum wa ma khalfakum la'allakum turhamun",
+      "indonesian": "Dan apabila dikatakan kepada mereka, \"Takutlah kamu akan siksa yang di hadapanmu (di dunia) dan azab yang akan datang (akhirat) agar kamu mendapat rahmat,\" (mereka berpaling).",
+      "english": "But when it is said to them, \"Beware of what is before you and what is behind you; perhaps you will receive mercy...\""
+    },
+    {
+      "no_ayah": 46,
+      "arabic": "وَمَا تَأْتِيهِم مِّنْ آيَةٍ مِّنْ آيَاتِ رَبِّهِمْ إِلَّا كَانُوا عَنْهَا مُعْرِضِينَ",
+      "transliteration": "Wa ma ta'tihim min ayatim-min ayati Rabbihim illa kanu 'anha mu'ridhin",
+      "indonesian": "Dan sekali-kali tidak datang kepada mereka suatu tanda dari tanda-tanda (kebesaran) Tuhan mereka, melainkan mereka selalu berpaling darinya.",
+      "english": "And no sign comes to them from the signs of their Lord except that they are from it turning away."
+    },
+    {
+      "no_ayah": 47,
+      "arabic": "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا مِمَّا رَزَقَكُمُ اللَّهُ قَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ آمَنُوا أَنُطْعِمُ مَن لَّوْ يَشَاءُ اللَّهُ أَطْعَمَهُ إِنْ أَنتُمْ إِلَّا فِي ضَلَالٍ مُّبِينٍ",
+      "transliteration": "Wa idha qila lahum anfiqu mimma razaqakumul-lahu qalal-ladhina kafaru lil-ladhina amanu anut'imu mal-law yasha'ul-lahu at'amahu in antum illa fi dhalalim-mubin",
+      "indonesian": "Dan apabila dikatakan kepada mereka, \"Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,\" orang-orang yang kafir itu berkata kepada orang-orang yang beriman, \"Apakah kami harus memberi makan kepada orang-orang yang jika Allah menghendaki Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.\"",
+      "english": "And when it is said to them, \"Spend from that which Allah has provided for you,\" those who disbelieve say to those who believe, \"Should we feed one whom, if Allah had willed, He would have fed? You are not but in clear error.\""
+    },
+    {
+      "no_ayah": 48,
+      "arabic": "وَيَقُولُونَ مَتَىٰ هَٰذَا الْوَعْدُ إِن كُنتُمْ صَادِقِينَ",
+      "transliteration": "Wa yaquluna mata hadhal-wa'du in kuntum sadiqin",
+      "indonesian": "Dan mereka berkata, \"Kapankah janji (hari berbangkit) itu jika kamu orang yang benar?\"",
+      "english": "And they say, \"When is this promise, if you should be truthful?\""
+    },
+    {
+      "no_ayah": 49,
+      "arabic": "مَا يَنظُرُونَ إِلَّا صَيْحَةً وَاحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ",
+      "transliteration": "Ma yanzhuruna illa sayhataw-wahidatan ta'khudhuhum wa hum yakhissimun",
+      "indonesian": "Mereka hanya menunggu satu teriakan, yang akan membinasakan mereka ketika mereka sedang bertengkar.",
+      "english": "They do not await except one blast which will seize them while they are disputing."
+    },
+    {
+      "no_ayah": 50,
+      "arabic": "فَلَا يَسْتَطِيعُونَ تَوْصِيَةً وَلَا إِلَىٰ أَهْلِهِمْ يَرْجِعُونَ",
+      "transliteration": "Fala yastati'una tawsiyataw-wa la ila ahlihim yarji'un",
+      "indonesian": "Maka mereka tidak mampu membuat suatu wasiat dan mereka (juga) tidak dapat kembali kepada keluarganya.",
+      "english": "And they will not be able [to give] any instruction, nor to their people can they return."
+    },
+    {
+      "no_ayah": 51,
+      "arabic": "وَنُفِخَ فِي الصُّورِ فَإِذَا هُم مِّنَ الْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "transliteration": "Wa nufikha fis-suri fa'idha hum minal-ajdathi ila Rabbihim yansilun",
+      "indonesian": "Dan sangkakala pun ditiup, maka seketika itu mereka keluar dari kuburnya (dalam keadaan hidup), menuju kepada Tuhan mereka.",
+      "english": "And the Horn will be blown; and at once from the graves to their Lord they will hasten."
+    },
+    {
+      "no_ayah": 52,
+      "arabic": "قَالُوا يَا وَيْلَنَا مَن بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ الرَّحْمَٰنُ وَصَدَقَ الْمُرْسَلُونَ",
+      "transliteration": "Qalu ya waylana mam ba'athana mim-marqadina, hadha ma wa'adar-Rahmanu wa sadaqal-mursalun",
+      "indonesian": "Mereka berkata, \"Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?\" Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah rasul-rasul(-Nya).",
+      "english": "They will say, \"O woe to us! Who has raised us up from our sleeping place?\" [The reply will be], \"This is what the Most Merciful had promised, and the messengers told the truth.\""
+    },
+    {
+      "no_ayah": 53,
+      "arabic": "إِن كَانَتْ إِلَّا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
+      "transliteration": "In kanat illa sayhataw-wahidatan fa'idha hum jami'ul-ladayna muhdarun",
+      "indonesian": "Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).",
+      "english": "It will not be but one blast, and at once they are all brought present before Us."
+    },
+    {
+      "no_ayah": 54,
+      "arabic": "فَالْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْئًا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+      "transliteration": "Fal-yawma la tuzlamu nafsun shay'aw-wa la tujzawna illa ma kuntum ta'malun",
+      "indonesian": "Maka pada hari itu seseorang tidak akan dirugikan sedikit pun dan kamu tidak akan diberi balasan kecuali sesuai dengan apa yang telah kamu kerjakan.",
+      "english": "So today no soul will be wronged at all, and you will not be recompensed except for what you used to do."
+    },
+    {
+      "no_ayah": 55,
+      "arabic": "إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ",
+      "transliteration": "Inna ashabal-jannatil-yawma fi shugulin fakihun",
+      "indonesian": "Sesungguhnya penghuni surga pada hari itu bersenang-senang dalam kesibukan (mereka).",
+      "english": "Indeed the companions of Paradise, that Day, will be amused in [joyful] occupation."
+    },
+    {
+      "no_ayah": 56,
+      "arabic": "هُمْ وَأَزْوَاجُهُمْ فِي ظِلَالٍ عَلَى الْأَرَائِكِ مُتَّكِئُونَ",
+      "transliteration": "Hum wa azwajuhum fi zhilalin 'alal-ara'iki muttaki'un",
+      "indonesian": "Mereka dan pasangan-pasangannya berada dalam tempat yang teduh, bersandar di atas dipan-dipan.",
+      "english": "They and their spouses - in shade, reclining on adorned couches."
+    },
+    {
+      "no_ayah": 57,
+      "arabic": "لَهُمْ فِيهَا فَاكِهَةٌ وَلَهُم مَّا يَدَّعُونَ",
+      "transliteration": "Lahum fiha fakihatuw-wa lahum ma yadda'un",
+      "indonesian": "Di surga itu mereka memperoleh buah-buahan dan memperoleh apa saja yang mereka inginkan.",
+      "english": "For them therein is fruit, and for them is whatever they request [or wish]."
+    },
+    {
+      "no_ayah": 58,
+      "arabic": "سَلَامٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",
+      "transliteration": "Salamun qawlam mir-Rabbir-Rahim",
+      "indonesian": "(Kepada mereka dikatakan), \"Salam,\" sebagai ucapan selamat dari Tuhan Yang Maha Penyayang.",
+      "english": "[And] \"Peace,\" a word from a Merciful Lord."
+    },
+    {
+      "no_ayah": 59,
+      "arabic": "وَامْتَازُوا الْيَوْمَ أَيُّهَا الْمُجْرِمُونَ",
+      "transliteration": "Wamtazul-yawma ayyuhal-mujrimun",
+      "indonesian": "Dan (dikatakan kepada orang-orang kafir), \"Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai orang-orang yang berdosa!",
+      "english": "[Then He will say], \"But stand apart today, you criminals."
+    },
+    {
+      "no_ayah": 60,
+      "arabic": "۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَا بَنِي آدَمَ أَن لَّا تَعْبُدُوا الشَّيْطَانَ ۖ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ",
+      "transliteration": "Alam a'had ilaykum ya bani Adama al-la ta'budush-shaytana, innahu lakum 'aduwwum-mubin",
+      "indonesian": "Bukankah Aku telah memerintahkan kepadamu, wahai anak cucu Adam, agar kamu tidak menyembah setan? Sungguh, setan itu musuh yang nyata bagi kamu,",
+      "english": "Did I not enjoin upon you, O children of Adam, that you not worship Satan - [for] indeed, he is to you a clear enemy."
+    },
+    {
+      "no_ayah": 61,
+      "arabic": "وَأَنِ اعْبُدُونِي ۚ هَٰذَا صِرَاطٌ مُّسْتَقِيمٌ",
+      "transliteration": "Wa ani'buduni, hadha siratun-mustaqim",
+      "indonesian": "dan hendaklah kamu menyembah-Ku. Inilah jalan yang lurus.\"",
+      "english": "And that you worship [only] Me? This is a straight path."
+    },
+    {
+      "no_ayah": 62,
+      "arabic": "وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا تَعْقِلُونَ",
+      "transliteration": "Wa laqad adhalla minkum jibillan kathira, afalam takunu ta'qilun",
+      "indonesian": "Dan sungguh, setan itu telah menyesatkan sebagian besar di antara kamu. Maka apakah kamu tidak mengerti?",
+      "english": "And he had already led astray from among you much of creation, so did you not use reason?"
+    },
+    {
+      "no_ayah": 63,
+      "arabic": "هَٰذِهِ جَهَنَّمُ الَّتِي كُنتُمْ تُوعَدُونَ",
+      "transliteration": "Hadhihi jahannamul-lati kuntum tu'adun",
+      "indonesian": "Inilah Jahanam yang dahulu telah diperingatkan kepadamu.",
+      "english": "This is Hell, which you were promised."
+    },
+    {
+      "no_ayah": 64,
+      "arabic": "اصْلَوْهَا الْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "transliteration": "Islawhil-yawma bima kuntum takfurun",
+      "indonesian": "Masuklah ke dalamnya pada hari ini karena kamu dahulu mengingkarinya.",
+      "english": "[Enter to] burn therein today for what you used to deny."
+    },
+    {
+      "no_ayah": 65,
+      "arabic": "الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا يَكْسِبُونَ",
+      "transliteration": "Al-yawma nakhtimu 'ala afwahihim wa tukallimuna aydihim wa tashhadu arjuluhum bima kanu yaksibun",
+      "indonesian": "Pada hari ini Kami tutup mulut mereka; tangan mereka akan berkata kepada Kami dan kaki mereka akan memberi kesaksian terhadap apa yang dahulu mereka kerjakan.",
+      "english": "That Day, We will seal over their mouths, and their hands will speak to Us, and their feet will testify about what they used to earn."
+    },
+    {
+      "no_ayah": 66,
+      "arabic": "وَلَوْ نَشَاءُ لَطَمَسْنَا عَلَىٰ أَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَأَنَّىٰ يُبْصِرُونَ",
+      "transliteration": "Wa law nasha'u latamasna 'ala a'yunihim fastabaqus-sirata fa'anna yubsirun",
+      "indonesian": "Dan jika Kami menghendaki, pastilah Kami hapuskan penglihatan mata mereka; sehingga mereka berlomba-lomba (mencari) jalan. Maka bagaimanakah mereka dapat melihat?",
+      "english": "And if We willed, We could have obliterated their eyes, and they would race to [find] the path, and how could they see?"
+    },
+    {
+      "no_ayah": 67,
+      "arabic": "وَلَوْ نَشَاءُ لَمَسَخْنَاهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا اسْتَطَاعُوا مُضِيًّا وَلَا يَرْجِعُونَ",
+      "transliteration": "Wa law nasha'u lamasakhnahum 'ala makanatihim famas-tata'u mudhiyyaw-wa la yarji'un",
+      "indonesian": "Dan jika Kami menghendaki pasti Kami ubah bentuk mereka di tempat mereka berada; sehingga mereka tidak mampu berjalan lagi dan juga tidak mampu kembali.",
+      "english": "And if We willed, We could have deformed them, [paralyzing them] in their places so they would not be able to proceed, nor could they return."
+    },
+    {
+      "no_ayah": 68,
+      "arabic": "وَمَنْ نُعَمِّرْهُ نُنَكِّسْهُ فِي الْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+      "transliteration": "Wa man nu'ammirhu nunakkishu fil-khalq, afala ya'qilun",
+      "indonesian": "Dan barangsiapa Kami panjangkan umurnya niscaya Kami kembalikan dia kepada awal kejadian(nya). Maka mengapa mereka tidak mengerti?",
+      "english": "And he to whom We grant long life We reverse in creation; so will they not understand?"
+    },
+    {
+      "no_ayah": 69,
+      "arabic": "وَمَا عَلَّمْنَاهُ الشِّعْرَ وَمَا يَنبَغِي لَهُ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْآنٌ مُّبِينٌ",
+      "transliteration": "Wa ma 'allamnahush-shi'ra wa ma yambaghi lah, in huwa illa dhikruw-wa Qur'anum-mubin",
+      "indonesian": "Dan Kami tidak mengajarkan syair kepadanya (Muhammad) dan bersyair itu tidaklah pantas baginya. Al-Qur'an itu tidak lain hanyalah pelajaran dan kitab yang jelas,",
+      "english": "And We did not give Prophet Muhammad, knowledge of poetry, nor is it befitting for him. It is not but a message and a clear Qur'an."
+    },
+    {
+      "no_ayah": 70,
+      "arabic": "لِّيُنذِرَ مَن كَانَ حَيًّا وَيَحِقَّ الْقَوْلُ عَلَى الْكَافِرِينَ",
+      "transliteration": "Liyundhira man kana hayyaw-wa yahiqqal-qawlu 'alal-kafirin",
+      "indonesian": "agar dia (Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar pastilah (ketetapan azab) terhadap orang-orang kafir.",
+      "english": "To warn whoever is alive and justify the word against the disbelievers."
+    },
+    {
+      "no_ayah": 71,
+      "arabic": "أَوَلَمْ يَرَوْا أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَا أَنْعَامًا فَهُمْ لَهَا مَالِكُونَ",
+      "transliteration": "Awalam yaraw anna khalaqna lahum mimma 'amilat aydina an'aman fahum laha malikun",
+      "indonesian": "Dan tidakkah mereka melihat bahwa Kami telah menciptakan hewan ternak untuk mereka, yaitu sebagian dari apa yang telah Kami ciptakan dengan kekuasaan Kami, lalu mereka menguasainya?",
+      "english": "Do they not see that We have created for them from what Our hands have made, grazing livestock, and [then] they are their owners?"
+    },
+    {
+      "no_ayah": 72,
+      "arabic": "وَذَلَّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
+      "transliteration": "Wa dhallalnaha lahum faminha rakubuhum wa minha ya'kulun",
+      "indonesian": "Dan Kami telah menundukkannya (hewan-hewan itu) untuk mereka; lalu sebagiannya untuk menjadi tunggangan mereka dan sebagian untuk mereka makan.",
+      "english": "And We have tamed them for them, so some of them they ride, and some of them they eat."
+    },
+    {
+      "no_ayah": 73,
+      "arabic": "وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ ۖ أَفَلَا يَشْكُرُونَ",
+      "transliteration": "Wa lahum fiha manafi'u wa masharib, afala yashkurun",
+      "indonesian": "Dan mereka memperoleh berbagai manfaat dan minuman darinya. Maka mengapa mereka tidak bersyukur?",
+      "english": "And for them therein are [other] benefits and drinks, so will they not be grateful?"
+    },
+    {
+      "no_ayah": 74,
+      "arabic": "وَاتَّخَذُوا مِن دُونِ اللَّهِ آلِهَةً لَّعَلَّهُمْ يُنصَرُونَ",
+      "transliteration": "Wattakhadhu min dunil-lahi alihatal-la'allahum yunsarun",
+      "indonesian": "Dan mereka mengambil tuhan-tuhan selain Allah agar mereka mendapat pertolongan.",
+      "english": "But they have taken besides Allah [false] deities that perhaps they would be helped."
+    },
+    {
+      "no_ayah": 75,
+      "arabic": "لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُندٌ مُّحْضَرُونَ",
+      "transliteration": "La yastati'una nasrahum wa hum lahum jundum-muhdarun",
+      "indonesian": "Mereka (sesembahan) itu tidak dapat menolong mereka, padahal mereka (sesembahan) itu menjadi tentara yang disiapkan untuk menjaga (sesembahan) itu.",
+      "english": "They are not able to help them, and they [themselves] are for them soldiers in attendance."
+    },
+    {
+      "no_ayah": 76,
+      "arabic": "فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
+      "transliteration": "Fala yahzunka qawluhum, inna na'lamu ma yusirruna wa ma yu'linun",
+      "indonesian": "Maka jangan sampai ucapan mereka membuat engkau (Muhammad) bersedih. Sungguh, Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.",
+      "english": "So let not their speech grieve you. Indeed, We know what they conceal and what they declare."
+    },
+    {
+      "no_ayah": 77,
+      "arabic": "أَوَلَمْ يَرَ الْإِنسَانُ أَنَّا خَلَقْنَاهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "transliteration": "Awalam yaral-insanu anna khalaqnahu min nutfatin fa'idha huwa khasimum-mubin",
+      "indonesian": "Dan tidakkah manusia memperhatikan bahwa Kami menciptakannya dari setetes mani, ternyata dia menjadi pembantah yang nyata!",
+      "english": "Does man not consider that We created him from a [mere] sperm-drop - then at once he is a clear adversary?"
+    },
+    {
+      "no_ayah": 78,
+      "arabic": "وَضَرَبَ لَنَا مَثَلًا وَنَسِيَ خَلْقَهُ ۖ قَالَ مَنْ يُحْيِي الْعِظَامَ وَهِيَ رَمِيمٌ",
+      "transliteration": "Wa daraba lana mathalaw-wa nasiya khalqah, qala may-yuhyil-'izhama wa hiya ramim",
+      "indonesian": "Dan dia membuat perumpamaan bagi Kami dan melupakan asal kejadiannya; dia berkata, \"Siapakah yang dapat menghidupkan tulang-belulang, yang telah hancur luluh?\"",
+      "english": "And he presents for Us an example and forgets his [own] creation. He says, \"Who will give life to bones while they are disintegrated?\""
+    },
+    {
+      "no_ayah": 79,
+      "arabic": "قُلْ يُحْيِيهَا الَّذِي أَنشَأَهَا أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
+      "transliteration": "Qul yuhyihal-ladhi ansha'aha awwala marrah, wa huwa bikulli khalqin 'alim",
+      "indonesian": "Katakanlah (Muhammad), \"Yang akan menghidupkannya ialah (Allah) yang menciptakannya pertama kali. Dan Dia Maha Mengetahui tentang segala makhluk,",
+      "english": "Say, \"He will give them life who produced them the first time; and He is, of all creation, Knowing.\""
+    },
+    {
+      "no_ayah": 80,
+      "arabic": "الَّذِي جَعَلَ لَكُم مِّنَ الشَّجَرِ الْأَخْضَرِ نَارًا فَإِذَا أَنتُم مِّنْهُ تُوقِدُونَ",
+      "transliteration": "Alladhi ja'ala lakum minash-shajaril-akhdari naran fa'idha antum minhu tuqidun",
+      "indonesian": "yaitu (Allah) yang menjadikan api untukmu dari kayu yang hijau, maka seketika itu kamu nyalakan (api) dari kayu itu.\"",
+      "english": "[It is] He who made for you from the green tree, fire, and then from it you ignite."
+    },
+    {
+      "no_ayah": 81,
+      "arabic": "أَوَلَيْسَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِقَادِرٍ عَلَىٰ أَن يَخْلُقَ مِثْلَهُم ۚ بَلَىٰ وَهُوَ الْخَلَّاقُ الْعَلِيمُ",
+      "transliteration": "Awalaysal-ladhi khalaqas-samawati wal-ardha biqadirin 'ala ay-yakhluqa mithlahum, bala wa huwal-Khallaqul-'Alim",
+      "indonesian": "Dan tidakkah (Allah) yang menciptakan langit dan bumi, mampu menciptakan kembali yang serupa itu (jasad mereka yang sudah hancur itu)? Benar, dan Dia Maha Pencipta, Maha Mengetahui.",
+      "english": "Is not He who created the heavens and the earth Able to create the likes of them? Yes, [it is so]; and He is the Knowing Creator."
+    },
+    {
+      "no_ayah": 82,
+      "arabic": "إِنَّمَا أَمْرُهُ إِذَا أَرَادَ شَيْئًا أَنْ يَقُولَ لَهُ كُنْ فَيَكُونُ",
+      "transliteration": "Innama amruhu idha arada shay'an ay-yaqula lahu kun fayakun",
+      "indonesian": "Sesungguhnya urusan-Nya apabila Dia menghendaki sesuatu Dia hanya berkata kepadanya, \"Jadilah!\" Maka jadilah sesuatu itu.",
+      "english": "His command is only when He intends a thing that He says to it, \"Be,\" and it is."
+    },
+    {
+      "no_ayah": 83,
+      "arabic": "فَسُبْحَانَ الَّذِي بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ وَإِلَيْهِ تُرْجَعُونَ",
+      "transliteration": "Fasub-hanal-ladhi biyadihi malakutu kulli shay'iw-wa ilayhi turja'un",
+      "indonesian": "Maka Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.",
+      "english": "So exalted is He in whose hand is the realm of all things, and to Him you will be returned."
+    }
+  ]
+}

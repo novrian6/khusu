@@ -1,11 +1,73 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:khusu/models/matsurat_model.dart';
 
-class DzikirScreen extends StatelessWidget {
+class DzikirScreen extends StatefulWidget {
   const DzikirScreen({super.key});
 
   @override
+  State<DzikirScreen> createState() => _DzikirScreenState();
+}
+
+class _DzikirScreenState extends State<DzikirScreen>
+    with SingleTickerProviderStateMixin {
+  late TabController _tabController;
+  List<Map<String, String?>> _matsuraatPagiContent = [];
+  List<Map<String, String?>> _matsuraatPetangContent = [];
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _tabController = TabController(length: 3, vsync: this);
+    _loadMatsuratData();
+  }
+
+  Future<void> _loadMatsuratData() async {
+    try {
+      // Load Al-Ma'tsurat Pagi following the pattern used in SurahDetailScreen
+      final pagiJsonString = await rootBundle.loadString(
+        'assets/json/doa/almatsurat_kubro_pagi.json',
+      );
+      final pagiData = jsonDecode(pagiJsonString);
+      final MatsuratContent pagiContent = MatsuratContent.fromJson(pagiData);
+
+      // Load Al-Ma'tsurat Petang
+      final petangJsonString = await rootBundle.loadString(
+        'assets/json/doa/almatsurat_kubro_petang.json',
+      );
+      final petangData = jsonDecode(petangJsonString);
+      final MatsuratContent petangContent = MatsuratContent.fromJson(
+        petangData,
+      );
+
+      // Update state with the loaded data
+      setState(() {
+        _matsuraatPagiContent =
+            pagiContent.content.map((item) => item.toDzikirMap()).toList();
+        _matsuraatPetangContent =
+            petangContent.content.map((item) => item.toDzikirMap()).toList();
+        _isLoading = false;
+      });
+    } catch (e) {
+      print('Error loading matsurat data: $e');
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final List<Map<String, String>> dzikirContent = [
+    // Dzikir Setelah Sholat content - keep the existing hardcoded content
+    final List<Map<String, String?>> dzikirSetelahSholatContent = [
       {
         "arabic": "سُبْحَانَ اللَّهِ",
         "transliteration": "Subhanallah",
@@ -51,74 +113,148 @@ class DzikirScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dzikir Setelah Sholat'),
+        title: const Text('Dzikir & Al-Ma\'tsurat'),
         backgroundColor: Colors.deepPurple,
+        bottom: TabBar(
+          controller: _tabController,
+          tabs: const [
+            Tab(text: 'Dzikir Sholat'),
+            Tab(text: 'Al-Ma\'tsurat Pagi'),
+            Tab(text: 'Al-Ma\'tsurat Petang'),
+          ],
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.white70,
+          indicatorColor: Colors.white,
+        ),
       ),
-      body: ListView.builder(
-        itemCount: dzikirContent.length,
-        itemBuilder: (context, index) {
-          final dzikir = dzikirContent[index];
-          return Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Card(
-              elevation: 4,
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
+      body:
+          _isLoading
+              ? const Center(
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
-                      dzikir['arabic']!,
-                      style: const TextStyle(
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                      textAlign: TextAlign.right,
-                    ),
-                    const SizedBox(height: 8.0),
-                    Text(
-                      dzikir['transliteration']!,
-                      style: const TextStyle(
-                        fontSize: 16.0,
-                        fontStyle: FontStyle.italic,
-                        color: Colors.grey,
-                      ),
-                    ),
-                    const SizedBox(height: 8.0),
-                    Text(
-                      dzikir['indonesian']!,
-                      style: const TextStyle(
-                        fontSize: 16.0,
-                        color: Colors.black87,
-                      ),
-                    ),
-                    const SizedBox(height: 8.0),
-                    Text(
-                      dzikir['english']!,
-                      style: const TextStyle(
-                        fontSize: 16.0,
-                        color: Colors.black54,
-                      ),
-                    ),
-                    if (dzikir.containsKey('count')) ...[
-                      const SizedBox(height: 8.0),
-                      Text(
-                        'Pengulangan: ${dzikir['count']}',
-                        style: const TextStyle(
-                          fontSize: 14.0,
-                          fontStyle: FontStyle.italic,
-                          color: Colors.blueGrey,
-                        ),
-                      ),
-                    ],
+                    CircularProgressIndicator(),
+                    SizedBox(height: 16),
+                    Text('Loading Al-Ma\'tsurat data...'),
                   ],
                 ),
+              )
+              : TabBarView(
+                controller: _tabController,
+                children: [
+                  // Dzikir Setelah Sholat Tab
+                  _buildDzikirList(dzikirSetelahSholatContent),
+
+                  // Al-Ma'tsurat Pagi Tab
+                  _buildDzikirList(_matsuraatPagiContent),
+
+                  // Al-Ma'tsurat Petang Tab
+                  _buildDzikirList(_matsuraatPetangContent),
+                ],
+              ),
+    );
+  }
+
+  Widget _buildDzikirList(List<Map<String, String?>> dzikirItems) {
+    if (dzikirItems.isEmpty) {
+      return const Center(
+        child: Text(
+          'No data available',
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+        ),
+      );
+    }
+
+    return ListView.builder(
+      itemCount: dzikirItems.length,
+      itemBuilder: (context, index) {
+        final dzikir = dzikirItems[index];
+        return Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Card(
+            elevation: 4,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    dzikir['arabic']!,
+                    style: const TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.right,
+                  ),
+                  const SizedBox(height: 8.0),
+                  Text(
+                    dzikir['transliteration']!,
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      fontStyle: FontStyle.italic,
+                      color: Colors.grey,
+                    ),
+                  ),
+                  const SizedBox(height: 8.0),
+                  Text(
+                    dzikir['indonesian']!,
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black87,
+                    ),
+                  ),
+                  const SizedBox(height: 8.0),
+                  Text(
+                    dzikir['english']!,
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black54,
+                    ),
+                  ),
+                  if (dzikir.containsKey('reference') &&
+                      dzikir['reference'] != null) ...[
+                    const SizedBox(height: 8.0),
+                    Text(
+                      dzikir['reference']!,
+                      style: const TextStyle(
+                        fontSize: 14.0,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.deepPurple,
+                      ),
+                    ),
+                  ],
+                  if (dzikir.containsKey('count') &&
+                      dzikir['count'] != null) ...[
+                    const SizedBox(height: 8.0),
+                    Text(
+                      'Jumlah Pengulangan: ${dzikir['count']}',
+                      style: const TextStyle(
+                        fontSize: 14.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.deepOrange,
+                      ),
+                    ),
+                  ],
+                  // Add repeat count display for Al-Ma'tsurat items if they have repeat info
+                  if (dzikir.containsKey('repeat') &&
+                      dzikir['repeat'] != null) ...[
+                    const SizedBox(height: 8.0),
+                    Text(
+                      'Jumlah Pengulangan: ${dzikir['repeat']}',
+                      style: const TextStyle(
+                        fontSize: 14.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.deepOrange,
+                      ),
+                    ),
+                  ],
+                ],
               ),
             ),
-          );
-        },
-      ),
+          ),
+        );
+      },
     );
   }
 }

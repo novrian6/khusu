@@ -1,0 +1,41 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="250" r="240" fill="none" stroke="#888" stroke-width="2"/>
+  
+  <!-- Degree marks -->
+  <g stroke="#888">
+    <!-- Generate tick marks for each 10 degrees -->
+    <!-- Major ticks at 0, 90, 180, 270 -->
+    <!-- North (0°) -->
+    <line x1="250" y1="30" x2="250" y2="60" stroke-width="3"/>
+    <!-- East (90°) -->
+    <line x1="470" y1="250" x2="440" y2="250" stroke-width="3"/>
+    <!-- South (180°) -->
+    <line x1="250" y1="470" x2="250" y2="440" stroke-width="3"/>
+    <!-- West (270°) -->
+    <line x1="30" y1="250" x2="60" y2="250" stroke-width="3"/>
+    
+    <!-- Add tick marks for every 30 degrees -->
+    <!-- 30° -->
+    <line x1="375" y1="125" x2="355" y2="145" stroke-width="2"/>
+    <!-- 60° -->
+    <line x1="435" y1="185" x2="415" y2="195" stroke-width="2"/>
+    <!-- 120° -->
+    <line x1="435" y1="315" x2="415" y2="305" stroke-width="2"/>
+    <!-- 150° -->
+    <line x1="375" y1="375" x2="355" y2="355" stroke-width="2"/>
+    <!-- 210° -->
+    <line x1="125" y1="375" x2="145" y2="355" stroke-width="2"/>
+    <!-- 240° -->
+    <line x1="65" y1="315" x2="85" y2="305" stroke-width="2"/>
+    <!-- 300° -->
+    <line x1="65" y1="185" x2="85" y2="195" stroke-width="2"/>
+    <!-- 330° -->
+    <line x1="125" y1="125" x2="145" y2="145" stroke-width="2"/>
+    
+    <!-- Add smaller tick marks for every 10 degrees (not shown in this simplified version) -->
+  </g>
+  
+  <!-- Crosshair in center -->
+  <line x1="250" y1="230" x2="250" y2="270" stroke="#444" stroke-width="1"/>
+  <line x1="230" y1="250" x2="270" y2="250" stroke="#444" stroke-width="1"/>
+</svg>

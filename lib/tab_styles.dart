@@ -105,9 +105,9 @@ class TabStyles {
   static const EdgeInsets contentPadding = EdgeInsets.all(16.0);
 
   // Material states for interactive elements
-  static MaterialStateProperty<Color?> tabBackgroundColor() {
-    return MaterialStateProperty.resolveWith((states) {
-      if (states.contains(MaterialState.selected)) {
+  static WidgetStateProperty<Color?> tabBackgroundColor() {
+    return WidgetStateProperty.resolveWith((states) {
+      if (states.contains(WidgetState.selected)) {
         return selectedColor.withOpacity(0.12);
       }
       return Colors.transparent;

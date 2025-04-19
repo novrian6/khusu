@@ -5,7 +5,7 @@ import 'package:adhan_dart/adhan_dart.dart' hide DateComponents;
 import 'package:intl/intl.dart';
 
 class WaktuSholatScreen extends StatefulWidget {
-  const WaktuSholatScreen({Key? key}) : super(key: key);
+  const WaktuSholatScreen({super.key});
 
   @override
   State<WaktuSholatScreen> createState() => _WaktuSholatScreenState();
@@ -60,7 +60,7 @@ class _WaktuSholatScreenState extends State<WaktuSholatScreen> {
   /// zero if necessary.
   ///
   /// Example: 9 becomes "09", 12 becomes "12".
-  /*******  433a53cd-fb55-45da-8402-6e8425b713c1  *******/
+  /// *****  433a53cd-fb55-45da-8402-6e8425b713c1  ******
   String _formatTimeUnit(int unit) {
     return unit < 10 ? '0$unit' : '$unit';
   }

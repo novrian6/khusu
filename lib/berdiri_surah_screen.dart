@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'dart:developer';
-import 'bacaan_detail_screen.dart';
-import 'surah_detail_screen.dart'; // Import the missing SurahDetailScreen
+// Import the missing SurahDetailScreen
 import 'surah_detail_with_quran_style_screen.dart'; // Add this import
 
 class BerdiriSurahScreen extends StatefulWidget {

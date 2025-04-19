@@ -1,0 +1,57 @@
+{
+  "number": 1,
+  "name": "Al-Fatihah",
+  "verses": 7,
+  "no_juzz": 1,
+  "ayahs": [
+    {
+      "no_ayah": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "transliteration": "Bismillahir-rahmanir-rahim",
+      "indonesian": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.",
+      "english": "In the name of Allah, the Most Gracious, the Most Merciful."
+    },
+    {
+      "no_ayah": 2,
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "transliteration": "Alhamdulillahi rabbil-'alamin",
+      "indonesian": "Segala puji bagi Allah, Tuhan seluruh alam.",
+      "english": "All praise is due to Allah, Lord of the worlds."
+    },
+    {
+      "no_ayah": 3,
+      "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "transliteration": "Ar-rahmanir-rahim",
+      "indonesian": "Yang Maha Pengasih, Maha Penyayang.",
+      "english": "The Most Gracious, the Most Merciful."
+    },
+    {
+      "no_ayah": 4,
+      "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+      "transliteration": "Maliki yawmid-din",
+      "indonesian": "Pemilik hari pembalasan.",
+      "english": "Master of the Day of Judgment."
+    },
+    {
+      "no_ayah": 5,
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "transliteration": "Iyyaka na'budu wa iyyaka nasta'in",
+      "indonesian": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami memohon pertolongan.",
+      "english": "It is You we worship and You we ask for help."
+    },
+    {
+      "no_ayah": 6,
+      "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "transliteration": "Ihdinas-siratal-mustaqim",
+      "indonesian": "Tunjukilah kami jalan yang lurus,",
+      "english": "Guide us to the straight path—"
+    },
+    {
+      "no_ayah": 7,
+      "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin",
+      "indonesian": "yaitu jalan orang-orang yang telah Engkau beri nikmat kepada mereka; bukan jalan mereka yang dimurkai, dan bukan pula jalan mereka yang sesat.",
+      "english": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray."
+    }
+  ]
+}

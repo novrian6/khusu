@@ -10,14 +10,14 @@ class ScreenWrapper extends StatelessWidget {
   final Widget? floatingActionButton;
 
   const ScreenWrapper({
-    Key? key,
+    super.key,
     required this.child,
     this.title = '',
     this.icon,
     this.backgroundColor = Colors.white,
     this.showDivider = true,
     this.floatingActionButton,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -4,12 +4,13 @@ import 'dart:async';
 import 'app_drawer.dart';
 import 'bacaan_screen.dart';
 import 'tips_khusu_screen.dart';
-import 'home_screen.dart';
 import 'gerakan_screen.dart';
 import 'surah_screen.dart';
 import 'dzikir_screen.dart';
 import 'doa_screen.dart';
 import 'waktu_sholat_screen.dart'; // Import the new screen
+
+import 'asmaul_husna_screen.dart'; // Import the new Asmaul Husna screen
 
 // Ensure plugins are initialized properly before app starts
 void main() async {
@@ -69,16 +70,28 @@ class _MyHomePageState extends State<MyHomePage>
       tabIcons: [Icons.book, Icons.accessibility_new, Icons.directions_run],
     ),
     TabCategory(
-      title: 'Waktu',
+      title: 'Waktu', // Changed from "Waktu & Tempat"
       icon: Icons.access_time,
       screens: [WaktuSholatScreen()],
+      tabLabels: ['Waktu Sholat', 'Qiblat'],
+      tabIcons: [Icons.access_time, Icons.explore],
     ),
     TabCategory(
-      title: 'Lainnya',
+      title: 'Pustaka', // Changed from "Lainnya"
       icon: Icons.menu_book,
-      screens: [SurahScreen(), DzikirScreen(), DoaScreen()],
-      tabLabels: ['Surah', 'Dzikir', 'Doa'],
-      tabIcons: [Icons.menu_book, Icons.self_improvement, Icons.favorite],
+      screens: [
+        SurahScreen(),
+        DzikirScreen(),
+        DoaScreen(),
+        AsmaulHusnaScreen(),
+      ],
+      tabLabels: ['Surah', 'Dzikir', 'Doa', 'Asmaul Husna'],
+      tabIcons: [
+        Icons.menu_book,
+        Icons.self_improvement,
+        Icons.favorite,
+        Icons.star,
+      ],
     ),
   ];
 
@@ -169,22 +182,36 @@ class _MyHomePageState extends State<MyHomePage>
           Container(
             alignment: Alignment.center,
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: TabBar(
-              controller: _mainTabController!,
-              tabs:
-                  _categories
-                      .map(
-                        (category) => Tab(
-                          icon: Icon(category.icon),
-                          text: category.title,
-                        ),
-                      )
-                      .toList(),
-              labelColor: Colors.deepPurple,
-              unselectedLabelColor: Colors.grey,
-              indicatorColor: Colors.deepPurple,
-              labelPadding: const EdgeInsets.symmetric(horizontal: 16.0),
-              isScrollable: true,
+            decoration: BoxDecoration(
+              color: Colors.deepPurple.shade100, // Stronger background color
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.2),
+                  blurRadius: 4,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+            ),
+            height: 70, // Keep main tabbar taller
+            margin: const EdgeInsets.only(bottom: 12.0),
+            child: Center(
+              child: TabBar(
+                controller: _mainTabController!,
+                tabs:
+                    _categories
+                        .map(
+                          (category) => Tab(
+                            icon: Icon(category.icon),
+                            text: category.title,
+                          ),
+                        )
+                        .toList(),
+                labelColor: Colors.deepPurple,
+                unselectedLabelColor: Colors.grey,
+                indicatorColor: Colors.deepPurple,
+                labelPadding: const EdgeInsets.symmetric(horizontal: 16.0),
+                isScrollable: true,
+              ),
             ),
           ),
 
@@ -206,25 +233,43 @@ class _MyHomePageState extends State<MyHomePage>
                               child: TabBarView(children: category.screens),
                             ),
 
-                            // Sub-tabs at the bottom
+                            // Sub-tabs at the bottom - updated styling
                             Positioned(
                               left: 0,
                               right: 0,
                               bottom: 0,
-                              height: 50,
+                              height:
+                                  50, // Keep sub-tabbar smaller than main tabbar
                               child: Container(
-                                color: Colors.white,
-                                child: TabBar(
-                                  isScrollable: true,
-                                  tabs: List.generate(
-                                    category.tabLabels.length,
-                                    (index) => Tab(
-                                      icon: Icon(category.tabIcons[index]),
-                                      text: category.tabLabels[index],
+                                decoration: BoxDecoration(
+                                  color:
+                                      Colors
+                                          .grey
+                                          .shade100, // Lighter background for sub-tabs
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withOpacity(0.1),
+                                      blurRadius: 3,
+                                      offset: const Offset(
+                                        0,
+                                        -1,
+                                      ), // Shadow above
                                     ),
+                                  ],
+                                ),
+                                child: Center(
+                                  child: TabBar(
+                                    isScrollable: true,
+                                    tabs: List.generate(
+                                      category.tabLabels.length,
+                                      (index) => Tab(
+                                        icon: Icon(category.tabIcons[index]),
+                                        text: category.tabLabels[index],
+                                      ),
+                                    ),
+                                    labelColor: Colors.deepPurple,
+                                    unselectedLabelColor: Colors.grey,
                                   ),
-                                  labelColor: Colors.deepPurple,
-                                  unselectedLabelColor: Colors.grey,
                                 ),
                               ),
                             ),
@@ -259,4 +304,58 @@ class TabCategory {
     this.tabLabels = const [],
     this.tabIcons = const [],
   });
+}
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          // Add the logo image at the top
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Image.asset(
+              'assets/images/logo_khusu.png', // Path to the image
+              width: 150, // Adjust size as needed
+              height: 150,
+            ),
+          ),
+          const SizedBox(height: 16),
+          const Text(
+            'Selamat Datang di Sholat Khusyu',
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 16),
+          // Existing content below the logo
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  'Fitur Utama:',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 8),
+                const Text('- Tips untuk sholat khusyu'),
+                const Text('- Panduan gerakan sholat'),
+                const Text('- Bacaan sholat lengkap'),
+                const Text('- Waktu sholat dan arah Qiblat'),
+                const Text('- Doa dan dzikir harian'),
+                const SizedBox(height: 16),
+                const Text(
+                  'Semoga aplikasi ini membantu meningkatkan kekhusyuan sholat Anda.',
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }

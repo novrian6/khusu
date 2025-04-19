@@ -6,10 +6,10 @@ class StyledMainTabBar extends StatelessWidget {
   final List<Widget> tabs;
 
   const StyledMainTabBar({
-    Key? key,
+    super.key,
     required this.controller,
     required this.tabs,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class StyledMainTabBar extends StatelessWidget {
         indicatorSize: TabBarIndicatorSize.label,
         indicator: TabStyles.tabIndicator(),
         splashBorderRadius: BorderRadius.circular(30),
-        overlayColor: MaterialStateProperty.all(
+        overlayColor: WidgetStateProperty.all(
           Colors.deepPurple.withOpacity(0.1),
         ),
         dividerColor: Colors.transparent,
@@ -42,10 +42,10 @@ class StyledSubTabBar extends StatelessWidget {
   final bool isScrollable;
 
   const StyledSubTabBar({
-    Key? key,
+    super.key,
     required this.tabs,
     this.isScrollable = true,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -79,11 +79,11 @@ class StyledTabView extends StatelessWidget {
   final EdgeInsetsGeometry padding;
 
   const StyledTabView({
-    Key? key,
+    super.key,
     this.controller,
     required this.children,
     this.padding = const EdgeInsets.all(8.0),
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -97,8 +97,8 @@ class StyledTabView extends StatelessWidget {
                 ? TabBarView(children: children)
                 : TabBarView(
                   controller: controller,
-                  children: children,
                   physics: const BouncingScrollPhysics(),
+                  children: children,
                 ),
       ),
     );

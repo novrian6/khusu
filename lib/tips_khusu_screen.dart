@@ -5,232 +5,176 @@ class TipsKhusuScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(16.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            padding: const EdgeInsets.all(16.0),
-            decoration: BoxDecoration(
-              color: Colors.deepPurple.shade50,
-              borderRadius: BorderRadius.circular(12.0),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black12,
-                  blurRadius: 4.0,
-                  offset: Offset(0, 2),
-                ),
-              ],
-            ),
-            child: const Text(
-              'Tips Agar Sholat Khusu:',
+    return Scaffold(
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Tips Sholat Khusyu',
               style: TextStyle(
-                fontSize: 24.0,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
                 color: Colors.deepPurple,
               ),
-              textAlign: TextAlign.center,
             ),
-          ),
-          const SizedBox(height: 20.0),
-          const Divider(thickness: 2.0, color: Colors.deepPurple),
-          const SizedBox(height: 20.0),
+            const SizedBox(height: 16),
 
-          // Group 1: Practical Tips
-          ExpansionTile(
-            title: const Text(
-              '1. Tips Praktis',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87,
-              ),
+            // Mindfulness section
+            _buildTipSection(
+              context,
+              'Mindfulness dalam Sholat',
+              'Hadirkan kesadaran penuh (mindfulness) saat sholat dengan:',
+              [
+                'Fokuskan pikiran hanya pada Allah SWT dan ibadah yang sedang dilakukan',
+                'Alihkan semua pikiran duniawi dan kesibukan sehari-hari',
+                'Rasakan setiap gerakan tubuh dan aliran nafas saat sholat',
+                'Saat pikiran mulai melayang, lembutkan hati dan kembalikan fokus pada sholat',
+                'Latih mindfulness secara bertahap, mulai dari 1-2 menit hingga penuh waktu sholat',
+              ],
+              Icons.psychology,
             ),
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16.0),
-                decoration: BoxDecoration(
-                  color: Colors.deepPurple.shade50,
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
-                child: const Text(
-                  '• Persiapkan diri dengan wudhu yang sempurna.\n'
-                  '• Pilih tempat yang tenang dan bebas gangguan.\n'
-                  '• Fokuskan niat hanya kepada Allah.\n'
-                  '• Hindari gerakan yang tidak perlu.\n'
-                  '• Perbanyak dzikir dan doa setelah sholat.',
-                  style: TextStyle(fontSize: 18.0, color: Colors.black87),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12.0),
 
-          // Group 2: Understanding and Reflection
-          ExpansionTile(
-            title: const Text(
-              '2. Pemahaman dan Refleksi',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87,
-              ),
+            // Understanding recitation section
+            _buildTipSection(
+              context,
+              'Pemahaman Bacaan Sholat',
+              'Tingkatkan khusyu dengan memahami bacaan:',
+              [
+                'Pelajari arti dari setiap bacaan dalam sholat',
+                'Ketahui konteks dan makna mendalam dari surat yang dibaca',
+                'Tadabbur (renungkan) makna Al-Fatihah dan surat yang dibaca',
+                'Coba variasikan bacaan surat pendek dengan mendalami artinya',
+                'Gunakan waktu luang untuk memperdalam pemahaman bacaan sholat',
+              ],
+              Icons.menu_book,
             ),
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16.0),
-                decoration: BoxDecoration(
-                  color: Colors.deepPurple.shade50,
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
-                child: const Text(
-                  '• Pahami makna bacaan sholat untuk menghadirkan hati dan pikiran.\n'
-                  '• Memahami arti bacaan membantu meningkatkan kekhusyukan.\n'
-                  '• Repetisi bacaan yang dipahami dapat memperkuat jalur saraf di otak.\n'
-                  '• Sholat dapat melatih pikiran bawah sadar agar lebih dekat kepada Allah.',
-                  style: TextStyle(fontSize: 18.0, color: Colors.black87),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12.0),
 
-          // Group 3: Spiritual Insights
-          ExpansionTile(
-            title: const Text(
-              '3. Wawasan Spiritual',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87,
-              ),
+            // Feeling the meaning section
+            _buildTipSection(
+              context,
+              'Merasakan Makna Bacaan',
+              'Rasakan makna bacaan dalam hati:',
+              [
+                'Hayati setiap pujian kepada Allah saat mengucap "Subhanallah" atau "Alhamdulillah"',
+                'Rasakan kerendahan diri di hadapan Allah saat rukuk dan sujud',
+                'Bayangkan bahwa Allah mendengar dan melihat shalatmu',
+                'Tanamkan perasaan takut (khauf) dan berharap (raja\') kepada Allah',
+                'Saat membaca doa, rasakan seperti berdialog langsung dengan Allah SWT',
+              ],
+              Icons.favorite,
             ),
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16.0),
-                decoration: BoxDecoration(
-                  color: Colors.deepPurple.shade50,
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
-                child: const Text(
-                  '• Imam Al-Ghazali menyarankan menghadirkan hati dan mengingat kematian.\n'
-                  '• Ibn Qayyim Al-Jawziyyah menekankan mengenal Allah melalui nama-nama-Nya.\n'
-                  '• Para sufi mengajarkan untuk mengosongkan pikiran dari duniawi selama sholat.',
-                  style: TextStyle(fontSize: 18.0, color: Colors.black87),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12.0),
 
-          // Group 4: Scientific Perspectives
-          ExpansionTile(
-            title: const Text(
-              '4. Perspektif Sains',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87,
-              ),
+            // Preparation section
+            _buildTipSection(
+              context,
+              'Persiapan Sebelum Sholat',
+              'Persiapkan diri sebelum sholat:',
+              [
+                'Berwudhu dengan sempurna dan merasakan setiap basuhan',
+                'Pastikan pakaian, tempat, dan waktu sudah siap untuk sholat',
+                'Luangkan 2-3 menit untuk menenangkan diri sebelum takbiratul ihram',
+                'Tanamkan niat yang benar dan tulus untuk beribadah',
+                'Kosongkan pikiran dari urusan dunia dengan mengingat kebesaran Allah',
+              ],
+              Icons.accessibility_new,
             ),
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16.0),
-                decoration: BoxDecoration(
-                  color: Colors.deepPurple.shade50,
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
-                child: const Text(
-                  '• Meditasi dan fokus meningkatkan aktivitas di prefrontal cortex.\n'
-                  '• Pernapasan dalam selama sholat menurunkan stres dan meningkatkan ketenangan.\n'
-                  '• Sholat khusu membawa otak ke kondisi Alpha atau Theta, yang meningkatkan relaksasi dan fokus.\n'
-                  '• Gelombang otak Alpha (8-12 Hz) terkait dengan meditasi ringan, sedangkan Theta (4-8 Hz) terkait dengan meditasi mendalam atau hypnosis state.\n'
-                  '• Repetisi bacaan sholat yang dipahami dapat memperkuat neuroplasticity, membantu membentuk kebiasaan spiritual yang lebih baik.\n'
-                  '• Kondisi ini membantu menurunkan stres, meningkatkan konsentrasi, dan memperkuat hubungan spiritual.',
-                  style: TextStyle(fontSize: 18.0, color: Colors.black87),
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12.0),
 
-          // Group 5: Quran and Hadith References
-          ExpansionTile(
-            title: const Text(
-              '5. Referensi Quran dan Hadits',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87,
+            // Continuous practice section
+            _buildTipSection(
+              context,
+              'Praktik Berkelanjutan',
+              'Tingkatkan khusyu dengan:',
+              [
+                'Konsisten berlatih setiap hari, kekhusyuan adalah proses bertahap',
+                'Evaluasi kualitas sholat setelah selesai',
+                'Belajar dari orang-orang yang shalatnya khusyu',
+                'Perbanyak dzikir di luar waktu sholat untuk menjaga hati tetap terhubung dengan Allah',
+                'Perbaiki amalan sehari-hari karena berpengaruh pada kualitas sholat',
+              ],
+              Icons.loop,
+            ),
+
+            const SizedBox(height: 24),
+            const Center(
+              child: Text(
+                '"Sesungguhnya beruntunglah orang-orang yang beriman, (yaitu) orang yang khusyu dalam shalatnya." (QS. Al-Mu\'minun: 1-2)',
+                style: TextStyle(
+                  fontStyle: FontStyle.italic,
+                  fontWeight: FontWeight.bold,
+                ),
+                textAlign: TextAlign.center,
               ),
             ),
-            children: [
-              ExpansionTile(
-                title: const Text(
-                  'Quran',
-                  style: TextStyle(
-                    fontSize: 18.0,
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildTipSection(
+    BuildContext context,
+    String title,
+    String intro,
+    List<String> points,
+    IconData icon,
+  ) {
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 10),
+      elevation: 2,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(icon, color: Colors.deepPurple),
+                const SizedBox(width: 8),
+                Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black87,
+                    color: Colors.deepPurple,
                   ),
                 ),
-                children: [
-                  Container(
-                    padding: const EdgeInsets.all(16.0),
-                    decoration: BoxDecoration(
-                      color: Colors.deepPurple.shade50,
-                      borderRadius: BorderRadius.circular(12.0),
-                    ),
-                    child: const Text(
-                      '• "Sesungguhnya sholat itu mencegah dari perbuatan keji dan mungkar." (QS. Al-Ankabut: 45)\n'
-                      '• "Dan dirikanlah sholat, tunaikanlah zakat, dan ruku\'lah beserta orang-orang yang ruku\'." (QS. Al-Baqarah: 43)\n'
-                      '• "Peliharalah semua sholat(mu), dan (peliharalah) sholat wustha. Berdirilah untuk Allah (dalam sholatmu) dengan khusyuk." (QS. Al-Baqarah: 238)\n'
-                      '• "Dan perintahkanlah kepada keluargamu mendirikan sholat dan bersabarlah kamu dalam mengerjakannya." (QS. Thaha: 132)\n'
-                      '• "Dan dirikanlah sholat untuk mengingat-Ku." (QS. Thaha: 14)\n'
-                      '• "Sesungguhnya beruntunglah orang-orang yang beriman, yaitu orang-orang yang khusyuk dalam sholatnya." (QS. Al-Mu’minun: 1-2)',
-                      style: TextStyle(fontSize: 18.0, color: Colors.black87),
-                      textAlign: TextAlign.justify,
-                    ),
-                  ),
-                ],
+              ],
+            ),
+            const Divider(),
+            Text(
+              intro,
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.w500,
+                color: Colors.grey[800],
               ),
-              ExpansionTile(
-                title: const Text(
-                  'Hadits',
-                  style: TextStyle(
-                    fontSize: 18.0,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black87,
-                  ),
-                ),
-                children: [
-                  Container(
-                    padding: const EdgeInsets.all(16.0),
-                    decoration: BoxDecoration(
-                      color: Colors.deepPurple.shade50,
-                      borderRadius: BorderRadius.circular(12.0),
-                    ),
-                    child: const Text(
-                      '• Rasulullah SAW bersabda: "Sholatlah seperti kalian melihat aku sholat." (HR. Bukhari)\n'
-                      '• "Amalan yang paling dicintai oleh Allah adalah sholat pada waktunya." (HR. Bukhari dan Muslim)\n'
-                      '• "Perbedaan antara seorang muslim dan kafir adalah meninggalkan sholat." (HR. Muslim)\n'
-                      '• "Barang siapa menjaga sholat, maka sholat itu akan menjadi cahaya, bukti, dan keselamatan baginya pada hari kiamat." (HR. Ahmad)\n'
-                      '• "Sholat adalah tiang agama. Barang siapa mendirikannya, maka ia telah menegakkan agama." (HR. Baihaqi)\n'
-                      '• "Sesungguhnya sholat yang pertama kali dihisab dari seorang hamba pada hari kiamat adalah sholatnya." (HR. Abu Dawud)',
-                      style: TextStyle(fontSize: 18.0, color: Colors.black87),
-                      textAlign: TextAlign.justify,
+            ),
+            const SizedBox(height: 8),
+            ...points
+                .map(
+                  (point) => Padding(
+                    padding: const EdgeInsets.only(bottom: 6),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text(
+                          '• ',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                        Expanded(child: Text(point)),
+                      ],
                     ),
                   ),
-                ],
-              ),
-            ],
-          ),
-        ],
+                )
+                ,
+          ],
+        ),
       ),
     );
   }

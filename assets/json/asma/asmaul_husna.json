@@ -1,0 +1,316 @@
+{
+  "asmaul_husna": [
+    {
+      "arabic": "ٱلرَّحْمَـٰنُ",
+      "transliteration": "Ar-Rahmān",
+      "indonesian": "Yang Maha Pengasih",
+      "english": "The Most Gracious"
+    },
+    {
+      "arabic": "ٱلرَّحِيمُ",
+      "transliteration": "Ar-Rahīm",
+      "indonesian": "Yang Maha Penyayang",
+      "english": "The Most Merciful"
+    },
+    {
+      "arabic": "ٱلْمَلِكُ",
+      "transliteration": "Al-Malik",
+      "indonesian": "Yang Maha Merajai",
+      "english": "The King and Owner of Dominion"
+    },
+    {
+      "arabic": "ٱلْقُدُّوسُ",
+      "transliteration": "Al-Quddūs",
+      "indonesian": "Yang Maha Suci",
+      "english": "The Absolutely Pure"
+    },
+    {
+      "arabic": "ٱلسَّلَامُ",
+      "transliteration": "As-Salām",
+      "indonesian": "Yang Maha Memberi Kesejahteraan",
+      "english": "The Source of Peace, Safety"
+    },
+    {
+      "arabic": "ٱلْمُؤْمِنُ",
+      "transliteration": "Al-Mu'min",
+      "indonesian": "Yang Maha Memberi Keamanan",
+      "english": "The One Who gives Emaan and Security"
+    },
+    {
+      "arabic": "ٱلْمُهَيْمِنُ",
+      "transliteration": "Al-Muhaymin",
+      "indonesian": "Yang Maha Mengawasi",
+      "english": "The Guardian, The Witness, The Overseer"
+    },
+    {
+      "arabic": "ٱلْعَزِيزُ",
+      "transliteration": "Al-‘Azīz",
+      "indonesian": "Yang Maha Perkasa",
+      "english": "The Almighty"
+    },
+    {
+      "arabic": "ٱلْجَبَّارُ",
+      "transliteration": "Al-Jabbār",
+      "indonesian": "Yang Maha Memaksakan",
+      "english": "The Compeller, The Restorer"
+    },
+    {
+      "arabic": "ٱلْمُتَكَبِّرُ",
+      "transliteration": "Al-Mutakabbir",
+      "indonesian": "Yang Maha Megah",
+      "english": "The Supreme, The Majestic"
+    },
+    {
+      "arabic": "ٱلْخَالِقُ",
+      "transliteration": "Al-Khāliq",
+      "indonesian": "Yang Maha Pencipta",
+      "english": "The Creator, The Maker"
+    },
+    {
+      "arabic": "ٱلْبَارِئُ",
+      "transliteration": "Al-Bāriʾ",
+      "indonesian": "Yang Maha Membuat",
+      "english": "The Evolver"
+    },
+    {
+      "arabic": "ٱلْمُصَوِّرُ",
+      "transliteration": "Al-Muṣawwir",
+      "indonesian": "Yang Maha Membentuk Rupa",
+      "english": "The Fashioner"
+    },
+    {
+      "arabic": "ٱلْغَفَّارُ",
+      "transliteration": "Al-Ghaffār",
+      "indonesian": "Yang Maha Pengampun",
+      "english": "The Constant Forgiver"
+    },
+    {
+      "arabic": "ٱلْقَهَّارُ",
+      "transliteration": "Al-Qahhār",
+      "indonesian": "Yang Maha Mengalahkan",
+      "english": "The All-Subduer"
+    },
+    {
+      "arabic": "ٱلْوَهَّابُ",
+      "transliteration": "Al-Wahhāb",
+      "indonesian": "Yang Maha Pemberi Karunia",
+      "english": "The Supreme Bestower"
+    },
+    {
+      "arabic": "ٱلرَّزَّاقُ",
+      "transliteration": "Ar-Razzāq",
+      "indonesian": "Yang Maha Pemberi Rezeki",
+      "english": "The Provider"
+    },
+    {
+      "arabic": "ٱلْفَتَّاحُ",
+      "transliteration": "Al-Fattāḥ",
+      "indonesian": "Yang Maha Pembuka Rahmat",
+      "english": "The Supreme Opener"
+    },
+    {
+      "arabic": "ٱلْعَلِيمُ",
+      "transliteration": "Al-‘Alīm",
+      "indonesian": "Yang Maha Mengetahui",
+      "english": "The All-Knowing"
+    },
+    {
+      "arabic": "ٱلْقَابِضُ",
+      "transliteration": "Al-Qābiḍ",
+      "indonesian": "Yang Maha Menyempitkan",
+      "english": "The Withholder"
+    },
+    {
+      "arabic": "ٱلْبَاسِطُ",
+      "transliteration": "Al-Bāsiṭ",
+      "indonesian": "Yang Maha Melapangkan",
+      "english": "The Extender"
+    },
+    {
+      "arabic": "ٱلْخَافِضُ",
+      "transliteration": "Al-Khāfiḍ",
+      "indonesian": "Yang Maha Merendahkan",
+      "english": "The Abaser"
+    },
+    {
+      "arabic": "ٱلرَّافِعُ",
+      "transliteration": "Ar-Rāfiʿ",
+      "indonesian": "Yang Maha Meninggikan",
+      "english": "The Exalter"
+    },
+    {
+      "arabic": "ٱلْمُعِزُّ",
+      "transliteration": "Al-Muʿizz",
+      "indonesian": "Yang Maha Memuliakan",
+      "english": "The Honourer"
+    },
+    {
+      "arabic": "ٱلْمُذِلُّ",
+      "transliteration": "Al-Mudhill",
+      "indonesian": "Yang Maha Menghinakan",
+      "english": "The Dishonourer"
+    },
+    {
+      "arabic": "ٱلسَّمِيعُ",
+      "transliteration": "As-Samīʿ",
+      "indonesian": "Yang Maha Mendengar",
+      "english": "The All-Hearing"
+    },
+    {
+      "arabic": "ٱلْبَصِيرُ",
+      "transliteration": "Al-Baṣīr",
+      "indonesian": "Yang Maha Melihat",
+      "english": "The All-Seeing"
+    },
+    {
+      "arabic": "ٱلْحَكَمُ",
+      "transliteration": "Al-Ḥakam",
+      "indonesian": "Yang Maha Menetapkan",
+      "english": "The Impartial Judge"
+    },
+    {
+      "arabic": "ٱلْعَدْلُ",
+      "transliteration": "Al-‘Adl",
+      "indonesian": "Yang Maha Adil",
+      "english": "The Utterly Just"
+    },
+    {
+      "arabic": "ٱلْلَّطِيفُ",
+      "transliteration": "Al-Laṭīf",
+      "indonesian": "Yang Maha Lembut",
+      "english": "The Subtle One, The Most Gentle"
+    },
+    {
+      "arabic": "ٱلْخَبِيرُ",
+      "transliteration": "Al-Khabīr",
+      "indonesian": "Yang Maha Mengenal",
+      "english": "The All-Aware"
+    },
+    {
+      "arabic": "ٱلْحَلِيمُ",
+      "transliteration": "Al-Ḥalīm",
+      "indonesian": "Yang Maha Penyantun",
+      "english": "The Most Forbearing"
+    },
+    {
+      "arabic": "ٱلْعَظِيمُ",
+      "transliteration": "Al-‘Aẓīm",
+      "indonesian": "Yang Maha Agung",
+      "english": "The Magnificent, The Infinite"
+    },
+    {
+      "arabic": "ٱلْغَفُورُ",
+      "transliteration": "Al-Ghafūr",
+      "indonesian": "Yang Maha Pengampun",
+      "english": "The Great Forgiver"
+    },
+    {
+      "arabic": "ٱلشَّكُورُ",
+      "transliteration": "Ash-Shakūr",
+      "indonesian": "Yang Maha Pembalas Budi",
+      "english": "The Most Appreciative"
+    },
+    {
+      "arabic": "ٱلْعَلِيُّ",
+      "transliteration": "Al-‘Aliyy",
+      "indonesian": "Yang Maha Tinggi",
+      "english": "The Most High, The Exalted"
+    },
+    {
+      "arabic": "ٱلْكَبِيرُ",
+      "transliteration": "Al-Kabīr",
+      "indonesian": "Yang Maha Besar",
+      "english": "The Most Great"
+    },
+    {
+      "arabic": "ٱلْحَفِيظُ",
+      "transliteration": "Al-Ḥafīẓ",
+      "indonesian": "Yang Maha Memelihara",
+      "english": "The Preserver"
+    },
+    {
+      "arabic": "ٱلْمُقِيتُ",
+      "transliteration": "Al-Muqīt",
+      "indonesian": "Yang Maha Pemberi Kecukupan",
+      "english": "The Sustainer"
+    },
+    {
+      "arabic": "ٱلْحسِيبُ",
+      "transliteration": "Al-Ḥasīb",
+      "indonesian": "Yang Maha Membuat Perhitungan",
+      "english": "The Reckoner"
+    },
+    {
+      "arabic": "ٱلْجَلِيلُ",
+      "transliteration": "Al-Jalīl",
+      "indonesian": "Yang Maha Mulia",
+      "english": "The Majestic"
+    },
+    {
+      "arabic": "ٱلْكَرِيمُ",
+      "transliteration": "Al-Karīm",
+      "indonesian": "Yang Maha Pemurah",
+      "english": "The Most Generous, the Most Esteemed"
+    },
+    {
+      "arabic": "ٱلرَّقِيبُ",
+      "transliteration": "Ar-Raqīb",
+      "indonesian": "Yang Maha Mengawasi",
+      "english": "The Watchful"
+    },
+    {
+      "arabic": "ٱلْمُجِيبُ",
+      "transliteration": "Al-Mujīb",
+      "indonesian": "Yang Maha Mengabulkan",
+      "english": "The Responsive One"
+    },
+    {
+      "arabic": "ٱلْوَاسِعُ",
+      "transliteration": "Al-Wāsiʿ",
+      "indonesian": "Yang Maha Luas",
+      "english": "The All-Encompassing, the Boundless"
+    },
+    {
+      "arabic": "ٱلْحَكِيمُ",
+      "transliteration": "Al-Ḥakīm",
+      "indonesian": "Yang Maha Bijaksana",
+      "english": "The All-Wise"
+    },
+    {
+      "arabic": "ٱلْوَدُودُ",
+      "transliteration": "Al-Wadūd",
+      "indonesian": "Yang Maha Mengasihi",
+      "english": "The Most Loving"
+    },
+    {
+      "arabic": "ٱلْمَجِيدُ",
+      "transliteration": "Al-Majīd",
+      "indonesian": "Yang Maha Mulia",
+      "english": "The Glorious, The Most Honorable"
+    },
+    {
+      "arabic": "ٱلْبَاعِثُ",
+      "transliteration": "Al-Bāʿith",
+      "indonesian": "Yang Maha Membangkitkan",
+      "english": "The Infuser of New Life"
+    },
+    {
+      "arabic": "ٱلشَّهِيدُ",
+      "transliteration": "Ash-Shahīd",
+      "indonesian": "Yang Maha Menyaksikan",
+      "english": "The All-and-Ever Witnessing"
+    },
+    {
+      "arabic": "ٱلْحَقُ",
+      "transliteration": "Al-Ḥaqq",
+      "indonesian": "Yang Maha Benar",
+      "english": "The Absolute Truth"
+    },
+    {
+      "arabic": "ٱلْوَكِيلُ",
+      "transliteration": "Al-Wakīl",
+      "indonesian": "Yang Maha Memelihara",
+      "english": "The Trustee, The Disposer of Affairs"
+    }
+  ]
+}

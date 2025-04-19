@@ -42,7 +42,7 @@ class _BacaanBerdiriScreenState extends State<BacaanBerdiriScreen> {
   /// If the verse is currently bookmarked, remove it from the set.
   /// Otherwise, add it to the set.
   ///
-  /*******  617e5192-e23c-494c-8f31-650be41817e6  *******/
+  /// *****  617e5192-e23c-494c-8f31-650be41817e6  ******
   void _toggleBookmark(int verseIndex) {
     setState(() {
       if (_bookmarkedVerses.contains(verseIndex)) {
@@ -923,8 +923,8 @@ class _BacaanBerdiriScreenState extends State<BacaanBerdiriScreen> {
                 ? FloatingActionButton(
                   onPressed: _scrollToTop,
                   backgroundColor: themeData.colorScheme.primary,
-                  child: const Icon(Icons.arrow_upward),
                   tooltip: 'Kembali ke atas',
+                  child: const Icon(Icons.arrow_upward),
                 )
                 : null,
       ),
